@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+    --color-yummers: #629C62;
+    --color-bummers: #2D482D;    
+}
+
+.hover\-green {
+ &:hover {
+ @media (hover: hover) {
+ color: hsl(120, 47%, 27%);
+ }
+ }
+}
+
