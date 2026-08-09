@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+/* Allow page scrolling but hide visible scrollbars */
+html, body, #root {
+	height: 100%;
+	margin: 0;
+	overscroll-behavior: none;
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+	overflow-y: auto;
+    z-index: -100;
+}
+
+/* Hide WebKit scrollbars */
+body::-webkit-scrollbar {
+	display: none;
+}

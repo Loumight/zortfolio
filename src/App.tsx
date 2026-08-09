@@ -4,8 +4,8 @@ import TargetCursor from "./cursor";
 
 function App() {
   return (
-    <div className="bg-emerald-950 opacity-100 w-dvw h-dvh absolute -z-10 scrollbar-none overflow-auto  ">
-      <div>
+    <div className="bg-emerald-950 opacity-100 w-full min-h-screen relative z-10 overflow-auto">
+        <div className="fixed inset-0 -z-1">
         <PixelBlast
           variant="square"
           pixelSize={2.5}
@@ -21,6 +21,7 @@ function App() {
           edgeFade={0}
           transparent
         />
+        </div>
         <TargetCursor
           spinDuration={3}
           hideDefaultCursor
@@ -49,9 +50,20 @@ function App() {
         </div>
 
         {/* CONTENT */}
-        <div className="grid grid-cols-20 p-12 gap-10">
-          <div className="bg-purple-600 col-span-14">1</div>
-          <div className="bg-yellow-600 col-span-6">2</div>
+        
+      <div className="flex gap-10 p-12 h-[calc(100vh-164px)] w-full box-border">
+        <div className="w-[70%] bg-purple-600 overflow-hidden flex">
+          <img
+            className="w-full h-full"
+            src="./src/assets/person.webp"
+          />
+          <img
+            className="w-full h-full"
+            src="./src/assets/pluh.png"
+          />
+        </div>
+        <div className="w-[30%] bg-yellow-600 flex items-center justify-center text-white text-center text-3xl">
+          hey man u should scroll down
         </div>
       </div>
     </div>
@@ -59,3 +71,4 @@ function App() {
 }
 
 export default App;
+
