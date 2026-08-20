@@ -38,7 +38,7 @@ function App() {
         cursorColorOnTarget="#ffffff"
       />
       {/* TITLE */}
-      <div className="flex flex-col max-h-screen">
+      <div className="flex flex-col h-screen">
         <div className="text-white text-5xl font-bold flex flex-wrap justify-between bg-linear-to-r from-bummers to-emerald-950 p-12 border-white border-b-4 z-10">
           <a
             onClick={() => setActiveTab("home")}
@@ -79,14 +79,11 @@ function App() {
       
 
       {/* CONTENT */}
-
-      <div className="flex grow gap-10 p-12 h-auto w-full box-border min-h-0 pointer-events-auto">
         {activeTab === "home" && <HomeContent />}
         {activeTab === "art" && <ArtContent />}
         {activeTab === "music" && <MusicContent />}
         {activeTab === "about" && <AboutContent />}
         {activeTab === "projects" && <ProjectContent />}
-      </div>
     </div>
     </div>
   );
