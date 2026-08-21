@@ -39,7 +39,7 @@ function App() {
       />
       {/* TITLE */}
       <div className="flex flex-col h-screen">
-        <div className="text-white text-5xl font-bold flex flex-wrap justify-between bg-linear-to-r from-bummers to-emerald-950 p-12 border-white border-b-4 z-10">
+        <div className="text-white text-5xl font-bold flex flex-wrap justify-between bg-linear-to-r from-bummers to-emerald-950 p-9 border-white border-b-4 z-10">
           <a
             onClick={() => setActiveTab("home")}
             className="select-none cursor-target transition-transform duration-300 hover:scale-110"
