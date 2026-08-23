@@ -3,7 +3,8 @@ export default function AboutContent() {
   return (
     <>
       <div className="flex grow gap-10 w-full box-border p-12 h-[calc(100vh-140px)] pointer-events-auto flex-col md:flex-row ">
-        <div className=" text-white text-xl w-[50%] flex flex-col justify-center backdrop-blur-xs p-12 backdrop-opacity-70 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-auto">
+        <div className="w-[50%] flex place-items-center backdrop-blur-xs backdrop-opacity-70 border-[hsl(120,20%,5%)]/20 border-4">
+          <div className="w-full max-h-full overflow-y-auto text-white text-xl flex flex-col p-12">
           {/*abt*/}
           <h3 className="mb-10 text-5xl font-bold">Hey there!</h3>
           <p className="mb-6">
@@ -33,13 +34,14 @@ export default function AboutContent() {
             Scroll down for more about my music and art!
           </p>
         </div>
-
+        </div>
         <div className="flex flex-row w-[50%]">
           <img
             className="h-full w-full object-contain object-center"
             src="./src/assets/pluh.png"
           />
-        </div>
+          </div>
+
       </div>
       <div className="flex grow gap-10 w-full box-border p-12 max-h-svh pointer-events-auto">
         <div className="grid grid-cols-3 gap-10 w-auto">
@@ -66,7 +68,7 @@ export default function AboutContent() {
               try subsidise it with decent music theory ):
             </p>
           </div>
-          <div className=" text-white text-xl w-full flex flex-col backdrop-blur-xs p-12 backdrop-opacity-70 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-scroll">
+          <div className="text-white text-xl w-full min-h-0 flex flex-col backdrop-blur-xs p-12 backdrop-opacity-70 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-auto box-border">
             <h3 className="mb-10 text-5xl font-bold">Art</h3>
             <p className="mb-6">
               I was quite the drawer as a child, doesn't mean I was good though.
@@ -95,7 +97,7 @@ export default function AboutContent() {
               the development of my style.
             </p>
           </div>
-          <div className=" text-white text-xl w-full flex flex-col backdrop-blur-xs p-12 backdrop-opacity-70 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-scroll">
+          <div className="text-white text-xl w-full min-h-0 flex flex-col backdrop-blur-xs p-12 backdrop-opacity-70 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-auto box-border">
             <h3 className="mb-10 text-5xl font-bold">General</h3>
             <p className="mb-6">
               I was quite the drawer as a child, doesn't mean I was good though.
@@ -124,9 +126,23 @@ export default function AboutContent() {
               the development of my style.
             </p>
           </div>
+                  <img
+          className="w-full h-full object-contain object-center min-w-0 min-h-0 overflow-hidden box-border"
+          src="./src/assets/tuff.webp"
+          alt="mibombo"
+        />
+        <img
+          className="w-full h-full object-contain object-center min-w-0 min-h-0 overflow-hidden box-border"
+          src="./src/assets/tuff.webp"
+          alt="mibombo"
+        />
+        <img
+          className="w-full h-full object-contain object-center min-w-0 min-h-0 overflow-hidden box-border"
+          src="./src/assets/tuff.webp"
+          alt="mibombo"
+        />
         </div>
       </div>
     </>
   );
 }
-
