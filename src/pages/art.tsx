@@ -23,7 +23,7 @@ export default function ArtContent() {
             stock_img.png
           </p>
           <p>
-           beech sure is yummy, one of the first ever digital drwaings i did.
+           beech sure is yummy, one of the first ever digital drwaings i did testing.
           </p>
         </div>
        </div>
