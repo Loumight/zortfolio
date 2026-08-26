@@ -1,15 +1,59 @@
 @import "tailwindcss";
 
+.highlighter {
+  position: relative;
+  display: inline-block;
+  isolation: isolate;
+  color: white;
+  font-weight: bold;
+
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: -0.1rem;
+    background: url("/marker-highlight.svg") center / 100% 100% no-repeat;
+    transform: skewY(-1deg) skewX(-1deg);
+  }
+}
+
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+
+  &::before {
+    display: inline-flex;
+    gap: 4rem;
+    animation: marquee-scroll 6s linear infinite;
+  }
+}
+
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
+}
+
 @theme {
-    --color-yummers: #629C62;
-    --color-bummers: #2D482D;    
+  --color-yummers: #629c62;
+  --color-bummers: #2d482d;
 }
 
 .hover\-green {
- &:hover {
- @media (hover: hover) {
- color: hsl(120, 47%, 27%);
- }
- }
+  &:hover {
+    @media (hover: hover) {
+      color: hsl(120, 47%, 27%);
+    }
+  }
 }
-

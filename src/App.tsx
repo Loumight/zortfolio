@@ -16,7 +16,7 @@ function App() {
         <PixelBlast
           variant="square"
           pixelSize={2.5}
-          color="#2D482D"
+          color="#225e3a"
           patternScale={3}
           patternDensity={1.1}
           pixelSizeJitter={0.5}
@@ -35,7 +35,7 @@ function App() {
         parallaxOn
         hoverDuration={0.1}
         cursorColor="#ffffff"
-        cursorColorOnTarget="#ffffff"
+        cursorColorOnTarget="#c053a3"
       />
       {/* TITLE */}
       <div className="flex flex-col h-min-screen pointer-events-none">
@@ -52,25 +52,25 @@ function App() {
           <div className="flex gap-8 flex-wrap justify-center">
             <a
               onClick={() => setActiveTab("art")}
-              className="hover:text-[hsl(120,47%,27%)] transition-colors duration-300 select-none cursor-target p-2"
+              className={`hover:text-pink-500 transition-colors duration-300 select-none cursor-target p-2 ${activeTab === "art" ? "underline decoration-pink-500 underline-offset-8" : ""}`}
             >
               Art
             </a>
             <a
               onClick={() => setActiveTab("music")}
-              className="hover:text-[hsl(120,47%,27%)] transition-colors duration-300 select-none cursor-target p-2"
+              className={`hover:text-pink-500 transition-colors duration-300 select-none cursor-target p-2 ${activeTab === "music" ? "underline decoration-pink-500 underline-offset-8" : ""}`}
             >
               Music
             </a>
             <a
               onClick={() => setActiveTab("about")}
-              className="hover:text-[hsl(120,47%,27%)] transition-colors duration-300 select-none cursor-target p-2"
+              className={`hover:text-pink-500 transition-colors duration-300 select-none cursor-target p-2 ${activeTab === "about" ? "underline decoration-pink-500 underline-offset-8" : ""}`}
             >
               About
             </a>
             <a
               onClick={() => setActiveTab("projects")}
-              className="hover:text-[hsl(120,47%,27%)] transition-colors duration-300 select-none cursor-target p-2"
+              className={`hover:text-pink-500 transition-colors duration-300 select-none cursor-target p-2 ${activeTab === "projects" ? "underline decoration-pink-500 underline-offset-8" : ""}`}
             >
               Projects
             </a>

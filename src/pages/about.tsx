@@ -6,7 +6,7 @@ export default function AboutContent() {
         <div className="w-[50%] flex place-items-center backdrop-blur-xs backdrop-opacity-70 border-[hsl(120,20%,5%)]/20 border-4">
           <div className="w-full max-h-full overflow-y-auto text-white text-xl flex flex-col p-12">
             {/*abt*/}
-            <h3 className="mb-10 text-5xl font-bold">Hey there!</h3>
+            <h3 className=" mb-10 text-5xl font-bold"><span className="highlighter px-6 py-2">Hey there!</span></h3>
             <p className="mb-6">
               Im Josh, a 2026 graduate of SSHS with a passion for art and music
               (and games). You can check out my work in my music and art
@@ -18,20 +18,20 @@ export default function AboutContent() {
               everything is coded by me.
             </p>
 
-            <p className="mb-6 text-3xl font-bold">Overview of my interests:</p>
+            <p className="mb-6 text-3xl font-bold"><span className="highlighter px-6 py-2">Overview of my interests:</span></p>
             <p className="mb-6">
             Sports - Mainly soccer and baseball
             </p>
             <p className="mb-6">
-              Music - Composing, microtonal music, perfoming on the drums
+              Music - Composing, perfoming on the drums (other instruments in the future?)
             </p>
             <p className="mb-6">
-              Art - Drawing, character design, deisgning my own website <i>*cough*</i>
+              Art - Drawing, character design, designing my own website <i>*cough*</i>
             </p>
             <p className="mb-6">
               Games - Playing them, creating them, everything about them
             </p>
-            <p className="text-3xl font-bold">
+            <p className="text-3xl font-bold underline decoration-pink-500">
               Scroll down for more about my music and art!
             </p>
           </div>
@@ -46,7 +46,7 @@ export default function AboutContent() {
       <div className="flex grow gap-10 w-full box-border p-12 max-h-svh pointer-events-auto snap-y snap-proximity">
         <div className="grid grid-cols-3 gap-10 w-auto">
           <div className=" text-white text-xl w-full flex flex-col backdrop-blur-xs p-12 backdrop-opacity-70 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-scroll">
-            <h3 className="mb-10 text-5xl font-bold">Music</h3>
+            <h3 className="mb-10 text-5xl font-bold underline decoration-pink-500">Music</h3>
             <p className="mb-6">
               I am the biggest drum one trick ever. I've played drums fairly
               regularly since I was 3, and have done weekly lessons (during the
@@ -77,7 +77,7 @@ export default function AboutContent() {
             </p>
           </div>
           <div className="text-white text-xl w-full min-h-0 flex flex-col backdrop-blur-xs p-12 backdrop-opacity-70 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-auto box-border">
-            <h3 className="mb-10 text-5xl font-bold">Art</h3>
+            <h3 className="mb-10 text-5xl font-bold underline decoration-pink-500">Art</h3>
             <p className="mb-6">
               I was quite the drawer as a child, doesn't mean I was good though.
               I could draw things and you could recognise that a thing is a
@@ -106,9 +106,8 @@ export default function AboutContent() {
             </p>
           </div>
           <div className="text-white text-xl w-full min-h-0 flex flex-col backdrop-blur-xs p-12 backdrop-opacity-70 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-auto box-border">
-            <div className="flex flex-row items-baseline gap-4 mb-10">
-              <h3 className="text-5xl font-bold">Hobbies</h3>
-              <p className="text-xl font-normal">(Sports and games)</p>
+            <div className="flex flex-col gap-4 mb-10">
+              <h3 className="text-5xl font-bold underline decoration-pink-500">Hobbies</h3>
             </div>
             <p className="mb-6">
               Always loved games, but even moreso now that I can truly
@@ -147,17 +146,17 @@ export default function AboutContent() {
           </div>
           <img
             className="w-full h-full object-fill object-center min-w-0 min-h-0 overflow-hidden box-border"
-            src="./src/assets/dragging.webp"
+            src="./src/assets/grillem.webp"
+            alt="mibombo"
+          />
+          <img
+            className="w-full h-full object-cover object-center min-w-0 min-h-0 overflow-hidden box-border"
+            src="./src/assets/disme.webp"
             alt="mibombo"
           />
           <img
             className="w-full h-full object-cover object-center min-w-0 min-h-0 overflow-hidden box-border"
             src="./src/assets/crine.webp"
-            alt="mibombo"
-          />
-          <img
-            className="w-full h-full object-cover object-center min-w-0 min-h-0 overflow-hidden box-border"
-            src="./src/assets/aurafarm.webp"
             alt="mibombo"
           />
         </div>
