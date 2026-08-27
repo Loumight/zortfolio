@@ -17,19 +17,22 @@
   }
 }
 
-@utility no-scrollbar {
-  &::-webkit-scrollbar {
-    display: none !important;
-  }
-  -ms-overflow-style: none !important;
-  scrollbar-width: none !important;
+/*get yo ahh outta here bro*/
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none; 
+}
+
+*::-webkit-scrollbar {
+  display: none; 
 }
 
 @theme {
   --color-yummers: #629c62;
   --color-bummers: #2d482d;
-
-  --animate-reveal: fly-in 1s cubic-bezier(0.16, 1, 0.3, 1);
+  --color-durple: #754B5D;
+  --color-headergreen: oklch(65.6% 0.241 354.308); /*CURRENTLYPINK REMEMBER TO CHANGE!!*/
+  --animate-reveal: fly-in 0.8s cubic-bezier(0.25, 1, 0.25, 1);
   @keyframes fly-in {
     from {
       opacity: 0;

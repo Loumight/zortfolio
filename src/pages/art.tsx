@@ -47,6 +47,16 @@ export default function ArtContent() {
             title="MI BOMBO CLAT"
             desc="if this works im super cool"
           />
+                    <Card
+            image="./src/assets/twotone.webp"
+            title="MI BOMBO CLAT"
+            desc="if this works im super cool"
+          />
+                    <Card
+            image="./src/assets/ogbw.webp"
+            title="MI BOMBO CLAT"
+            desc="if this works im super cool"
+          />
         </div>
 
       </div>

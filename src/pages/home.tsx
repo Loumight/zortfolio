@@ -1,7 +1,7 @@
 export default function HomeContent() {
   return (
-    <div className="flex grow gap-10 w-full box-border p-12 min-h-0 pointer-events-auto flex-col md:flex-row ">
-      <div className="w-full md:w-[70%] overflow-hidden flex h-auto">
+    <div className="flex grow gap-10 w-full box-border p-12 h-[calc(100vh-140px)] pointer-events-auto flex-col md:flex-row md:justify-center">
+      <div className="w-full md:w-[70%] overflow-hidden flex h-auto animate-reveal">
         <img
           className="w-full h-auto object-contain object-center min-h-75"
           src="./src/assets/tuff.webp"
@@ -15,7 +15,7 @@ export default function HomeContent() {
           but online I usually go by <i className="underline decoration-pink-500">Lumite</i> (hence the logo)
         </p>
         <p className="p-2 text-2xl">
-          Apart of the first Big Picture class at South Sydney HS - with interests in art and music <br></br> <span className="text-lg">(and now learning to code my own
+          Apart of the first Big Picture class at South Sydney HS - with an interest in art and music <br></br> <span className="text-lg">(and now learning to code my own
           website)</span>
         </p>
       </div>

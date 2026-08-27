@@ -3,7 +3,7 @@ export default function AboutContent() {
   return (
     <>
       <div className="flex grow gap-10 w-full box-border p-12 h-[calc(100vh-140px)] pointer-events-auto flex-col md:flex-row">
-        <div className="w-[50%] flex place-items-center backdrop-blur-xs backdrop-opacity-70 border-[hsl(120,20%,5%)]/20 border-4">
+        <div className="animate-reveal w-[50%] flex place-items-center backdrop-blur-xs backdrop-opacity-90 border-[hsl(120,20%,5%)]/20 border-4">
           <div className="w-full max-h-full overflow-y-auto text-white text-xl flex flex-col p-12">
             {/*abt*/}
             <h3 className=" mb-10 text-5xl font-bold"><span className="highlighter px-6 py-2">Hey there!</span></h3>
@@ -36,16 +36,20 @@ export default function AboutContent() {
             </p>
           </div>
         </div>
-        <div className="flex flex-row w-[50%]">
+        <div className="flex flex-row w-1/2 animate-reveal">
           <img
-            className="h-full w-full object-contain object-center"
+            className="h-full w-1/2 object-contain object-center"
             src="./src/assets/pluh.png"
+          />
+                    <img
+            className="h-full w-1/2 object-contain object-center"
+            src="./src/assets/disme.webp"
           />
         </div>
       </div>
-      <div className="flex grow gap-10 w-full box-border p-12 max-h-svh pointer-events-auto snap-y snap-proximity">
+      <div className="flex grow gap-10 w-full box-border p-12 max-h-svh pointer-events-auto">
         <div className="grid grid-cols-3 gap-10 w-auto">
-          <div className=" text-white text-xl w-full flex flex-col backdrop-blur-xs p-12 backdrop-opacity-70 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-scroll">
+          <div className=" text-white text-xl w-full flex flex-col backdrop-blur-xs p-12 backdrop-opacity-90 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-scroll">
             <h3 className="mb-10 text-5xl font-bold underline decoration-pink-500">Music</h3>
             <p className="mb-6">
               I am the biggest drum one trick ever. I've played drums fairly
@@ -76,7 +80,7 @@ export default function AboutContent() {
               plugins, some of which are SUPER cool. Reaper &gt; Ableton.
             </p>
           </div>
-          <div className="text-white text-xl w-full min-h-0 flex flex-col backdrop-blur-xs p-12 backdrop-opacity-70 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-auto box-border">
+          <div className="text-white text-xl w-full min-h-0 flex flex-col backdrop-blur-xs p-12 backdrop-opacity-90 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-auto box-border">
             <h3 className="mb-10 text-5xl font-bold underline decoration-pink-500">Art</h3>
             <p className="mb-6">
               I was quite the drawer as a child, doesn't mean I was good though.
@@ -105,7 +109,7 @@ export default function AboutContent() {
               the development of my style.
             </p>
           </div>
-          <div className="text-white text-xl w-full min-h-0 flex flex-col backdrop-blur-xs p-12 backdrop-opacity-70 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-auto box-border">
+          <div className="text-white text-xl w-full min-h-0 flex flex-col backdrop-blur-xs p-12 backdrop-opacity-90 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-auto box-border">
             <div className="flex flex-col gap-4 mb-10">
               <h3 className="text-5xl font-bold underline decoration-pink-500">Hobbies</h3>
             </div>
