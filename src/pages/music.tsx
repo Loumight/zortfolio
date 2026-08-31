@@ -1,5 +1,5 @@
 import  MusicMusicContent from "./musicmusic";
-import  AboutContent from "./musicabt";
+import  MAboutContent from "./musicabt";
 import { useState } from "react";
 
 export default function MusicContent() {
@@ -22,7 +22,7 @@ export default function MusicContent() {
           </a>
         </div>
         {activeTab === "music" && <MusicMusicContent />}
-        {activeTab === "about" && <AboutContent />}
+        {activeTab === "about" && <MAboutContent />}
       </div>
     </>
   );

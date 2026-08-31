@@ -1,4 +1,4 @@
-export default function MAboutContent () {
+export default function AAboutContent () {
     return(
 <div className="h-full w-full bg-amber-500" >Hi THIS WORKS</div>
     )
