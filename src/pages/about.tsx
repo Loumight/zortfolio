@@ -3,10 +3,12 @@ export default function AboutContent() {
   return (
     <>
       <div className="flex grow gap-10 w-full box-border p-12 h-[calc(100vh-140px)] pointer-events-auto flex-col md:flex-row">
-        <div className="animate-reveal w-[50%] flex place-items-center backdrop-blur-xs backdrop-opacity-90 border-[hsl(120,20%,5%)]/20 border-4">
+        <div className="animate-reveal w-[50%] flex place-items-center backdrop-blur-xs backdrop-opacity-90 border-[hsl(120,20%,5%)]/20 border-4 shadow-xl">
           <div className="w-full max-h-full overflow-y-auto text-white text-xl flex flex-col p-12">
             {/*abt*/}
-            <h3 className=" mb-10 text-5xl font-bold"><span className="highlighter px-6 py-2">Hey there!</span></h3>
+            <h3 className=" mb-10 text-5xl font-bold">
+              <span className="highlighter px-6 py-2">Hey there!</span>
+            </h3>
             <p className="mb-6">
               Im Josh, a 2026 graduate of SSHS with a passion for art and music
               (and games). You can check out my work in my music and art
@@ -18,15 +20,19 @@ export default function AboutContent() {
               everything is coded by me.
             </p>
 
-            <p className="mb-6 text-3xl font-bold"><span className="highlighter px-6 py-2">Overview of my interests:</span></p>
+            <p className="mb-6 text-3xl font-bold">
+              <span className="highlighter px-6 py-2">
+                Overview of my interests:
+              </span>
+            </p>
+            <p className="mb-6">Sports - Mainly soccer and baseball</p>
             <p className="mb-6">
-            Sports - Mainly soccer and baseball
+              Music - Composing, perfoming on the drums (other instruments in
+              the future?)
             </p>
             <p className="mb-6">
-              Music - Composing, perfoming on the drums (other instruments in the future?)
-            </p>
-            <p className="mb-6">
-              Art - Drawing, character design, designing my own website <i>*cough*</i>
+              Art - Drawing, character design, designing my own website{" "}
+              <i>*cough*</i>
             </p>
             <p className="mb-6">
               Games - Playing them, creating them, everything about them
@@ -36,21 +42,27 @@ export default function AboutContent() {
             </p>
           </div>
         </div>
-        <div className="flex flex-row w-1/2 animate-reveal">
-          <img
-            className="h-full w-1/2 object-contain object-center"
-            src="./src/assets/pluh.png"
-          />
-                    <img
-            className="h-full w-1/2 object-contain object-center"
-            src="./src/assets/disme.webp"
-          />
+        <div className="flex flex-row w-1/2 animate-reveal items-center">
+          <div className="h-max w-1/2 flex">
+            <img
+              className="drop-shadow-xl drop-shadow-black/20"
+              src="./src/assets/pluh.png"
+            />
+          </div>
+          <div className="h-max w-1/2 flex">
+            <img
+              className="drop-shadow-xl drop-shadow-black/20"
+              src="./src/assets/disme.webp"
+            />
+          </div>
         </div>
       </div>
       <div className="flex grow gap-10 w-full box-border p-12 max-h-svh pointer-events-auto">
         <div className="grid grid-cols-3 gap-10 w-auto">
-          <div className=" text-white text-xl w-full flex flex-col backdrop-blur-xs p-12 backdrop-opacity-90 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-scroll">
-            <h3 className="mb-10 text-5xl font-bold underline decoration-pink-500">Music</h3>
+          <div className=" text-white text-xl w-full flex flex-col backdrop-blur-xs p-12 backdrop-opacity-90 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-scroll shadow-xl">
+            <h3 className="mb-10 text-5xl font-bold underline decoration-pink-500">
+              Music
+            </h3>
             <p className="mb-6">
               I am the biggest drum one trick ever. I've played drums fairly
               regularly since I was 3, and have done weekly lessons (during the
@@ -80,8 +92,10 @@ export default function AboutContent() {
               plugins, some of which are SUPER cool. Reaper &gt; Ableton.
             </p>
           </div>
-          <div className="text-white text-xl w-full min-h-0 flex flex-col backdrop-blur-xs p-12 backdrop-opacity-90 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-auto box-border">
-            <h3 className="mb-10 text-5xl font-bold underline decoration-pink-500">Art</h3>
+          <div className="text-white text-xl w-full min-h-0 flex flex-col backdrop-blur-xs p-12 backdrop-opacity-90 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-auto box-border shadow-xl">
+            <h3 className="mb-10 text-5xl font-bold underline decoration-pink-500">
+              Art
+            </h3>
             <p className="mb-6">
               I was quite the drawer as a child, doesn't mean I was good though.
               I could draw things and you could recognise that a thing is a
@@ -109,9 +123,11 @@ export default function AboutContent() {
               the development of my style.
             </p>
           </div>
-          <div className="text-white text-xl w-full min-h-0 flex flex-col backdrop-blur-xs p-12 backdrop-opacity-90 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-auto box-border">
+          <div className="text-white text-xl w-full min-h-0 flex flex-col backdrop-blur-xs p-12 backdrop-opacity-90 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-auto box-border shadow-xl">
             <div className="flex flex-col gap-4 mb-10">
-              <h3 className="text-5xl font-bold underline decoration-pink-500">Hobbies</h3>
+              <h3 className="text-5xl font-bold underline decoration-pink-500">
+                Hobbies
+              </h3>
             </div>
             <p className="mb-6">
               Always loved games, but even moreso now that I can truly
@@ -123,11 +139,11 @@ export default function AboutContent() {
             </p>
             <p className="mb-6">
               I would love to make my own game, but more realistically I'd love
-              to compose an ost or do some character/environment design. I
-              looked at game dev degrees and a lot of them teach basic design
-              principals, but you're really only graded on your code. Maybe I
-              could become a one man army :0. Im sure wherever I go I'll be able
-              to incorporate my interests into them.
+              to compose an ost or do some character/environment design. Maybe I
+              could become a one man army :0. Hopefully I update this - but
+              currently Im loking at game dev at UTS, though music is still very
+              much an option. Im sure wherever I go I'll be able to incorporate
+              my interests into them.
             </p>
             <p className="mb-6">
               Now onto sports, I've played baseball for about 11 years now, and
@@ -139,13 +155,14 @@ export default function AboutContent() {
               form'.
             </p>
             <p>
-              Quick rundown of what I do, I pitch or play centre field in
-              baseball, and I've been a left wing one trick for ages in soccer,
-              but now I just play the left side in general. Pitching is a whole
-              thing, dont get me started, but centre field is fun (just dont
-              drop the ball). For soccer im definitely more of a positional
-              player than baller. I usually lurk wide as a cross option, or to
-              drag defence away - I got hella tuff crosses.
+              Quick rundown of what I do: I pitch or play centre field in
+              baseball, and am a left side one trick in soccer. Pitching is a
+              whole thing, dont get me started, but centre field is fun (just
+              dont drop the ball). For soccer im definitely more of a positional
+              player than baller. I almost exclusively played left wing for
+              years, my job was to stay wide and look to cross into the box, or
+              switch if defence has been dragged over. In the past year ive
+              played more left back since all our backs left.
             </p>
           </div>
           <img

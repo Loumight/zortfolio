@@ -27,6 +27,10 @@
   display: none; 
 }
 
+html {
+  overscroll-behavior: none;
+}
+
 @theme {
   --color-yummers: #629c62;
   --color-bummers: #2d482d;
