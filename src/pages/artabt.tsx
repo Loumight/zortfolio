@@ -29,7 +29,7 @@ export default function AAboutContent() {
         <i>'I wish I could make a design as cool as v1'</i>,{" "}
         <i>'I wish I could create a world as amazing as Totk'</i>.
       </p>
-      <p className="mb-10 font-bold">
+      <p className="mb-20 font-bold">
         "The highest praise a creator can give is the quiet frustration of
         wishing they had thought of it first."
       </p>
@@ -42,21 +42,88 @@ export default function AAboutContent() {
         cool perspective, an interesting outfit, etc. As for those constant
         sources that drive me to continue with my art, they include:
       </p>
-      <div className="mb-20 grid grid-cols-3 gap-6">
-        <div>
-            <p className="mb-6">The entire Zelda franchise cause its the best series EVER, but more specifically Oot and Botw/Totk.</p>
-            <img className="rounded-lg" src="https://i.pinimg.com/736x/21/d0/9d/21d09d3cc3b354ea1a373a226ddeddb7.jpg" alt="Zelda Art"></img>
-</div>
-
-        <div>
-            <p className="mb-6">Various shows including: JJK, Frieren, Arcane, Cyberpunk Edgerunners, One piece, and OPM.</p>
-            <img className="rounded-lg" src="https://i.pinimg.com/736x/21/d0/9d/21d09d3cc3b354ea1a373a226ddeddb7.jpg" alt="Show Art"></img>
-</div>
-        <div>
-            <p className="mb-6">Games such as Ror2, Ultrakill, Pseudoregalia, ZZZ, Neon White, and Deltarune.</p>
-            <img className="rounded-lg" src="https://i.pinimg.com/736x/21/d0/9d/21d09d3cc3b354ea1a373a226ddeddb7.jpg" alt="Game Art"></img>
-</div>
+      <div className="mb-20 grid grid-cols-3 gap-6 h-auto max-h-200">
+        <div className="h-auto">
+          <p className="mb-6">
+            The entire Zelda franchise cause its the best series EVER, but more
+            specifically Oot and Botw/Totk. Not a single piece of media has ever
+            come close to the impact these games have had on me, I will always
+            be inspired by them.
+          </p>
+        </div>
+        <div className="h-auto">
+          <p className="mb-6">
+            Various media including: JJK, Frieren, Arcane, and OPM. Theres also
+            a lot of inspo constantly coming from pinterest and instagram. I
+            dont follow any specific artists, I just kinda save any posts of
+            interests.
+          </p>
+        </div>
+        <div className="h-auto">
+          <p className="mb-6">
+            Games such as Ror2, Ultrakill, Pseudoregalia, ZZZ, Neon White, and
+            Deltarune. These aren't all of them, but these stand out for their
+            unique style/design that I find inspiring.
+          </p>
+        </div>
+        <div className="w-full h-full flex min-h-0 items-end">
+          <img
+            className="rounded-lg max-w-full max-h-full object-contain"
+            src="./src/assets/link.webp"
+            alt="pluh"
+          />
+        </div>
+        <div className="w-full h-full flex min-h-0 items-end">
+          <img
+            className="rounded-lg max-w-full max-h-full object-contain"
+            src="./src/assets/higi.webp"
+            alt="pluh"
+          />
+        </div>
+        <div className="w-full h-full flex min-h-0 items-end">
+          <img
+            className="rounded-lg max-w-full max-h-full object-contain"
+            src="./src/assets/moment.webp"
+            alt="pluh"
+          />
+        </div>
       </div>
+      {/* 
+      <div className="w-full h-full flex justify-center min-h-0">
+        <img
+          className="rounded-lg max-w-full max-h-full object-contain"
+          src="https://i.redd.it/totk-new-official-art-of-the-new-champions-v0-ey1g3xohbhua1.jpg?width=1536&format=pjpg&auto=webp&s=b1c7e42e6a362bf7fef10e10df4f1f37531f8859"
+          alt="pluh"
+        />
+      </div>
+
+        <div className="flex flex-col h-full min-h-0">
+          <p className="mb-6 flex-1">
+            Various shows including: JJK, Frieren, Arcane, Cyberpunk
+            Edgerunners, One piece, and OPM.
+          </p>
+          <div className="w-full h-full flex justify-center min-h-0">
+            <img
+              className="rounded-lg max-w-full max-h-full object-contain"
+              src="./src/assets/raga.webp"
+              alt="pluh"
+            />
+          </div>
+        </div>
+        <div className="flex flex-col max-h-100 min-h-0">
+          <p className="flex-1 mb-6">
+            Games such as Ror2, Ultrakill, Pseudoregalia, ZZZ, Neon White, and
+            Deltarune.
+          </p>
+          <div className="w-full h-full flex justify-center min-h-0">
+            <img
+              className="rounded-lg max-w-full max-h-full object-contain"
+              src="https://i.pinimg.com/736x/21/d0/9d/21d09d3cc3b354ea1a373a226ddeddb7.jpg"
+              alt="pluh"
+            />
+          </div>
+        </div>
+        */}
 
       <h3 className="mb-10 text-3xl font-bold underline decoration-pink-500">
         My art timeline
