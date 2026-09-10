@@ -19,10 +19,10 @@ export default function MAboutContent() {
         Real quick, some of my answers will refernce or compare to my art
         portfolio's answers so I DO recommend to read that first, but its not
         neccesary. My answer to this question is very similar to why I make art.
-        Wanting to make something that makes people go
+        Wanting to make something that makes people go{" "}
         <i>'Damn I wish I could make that'</i>. I want to leave an impression of
         awe - and a bit of jealousy (In a good way), like how I hold Louis Cole
-        or Yoshimasa Terui. Like I heard
+        or Yoshimasa Terui.
       </p>
       <p className="mb-10 font-bold">
         "A lot of times I’ll sit down at a piano and I’ll just sound really
@@ -32,53 +32,59 @@ export default function MAboutContent() {
       <h3 className="mb-10 text-3xl font-bold underline decoration-pink-500">
         Who or what inspires me?
       </h3>
-      <p className="mb-6">
-        My Inspiration for music is very different to art. Those moments are
-        fewer than art, but the urge to create after hearing{" "}
-        <i>
-          <b>that song</b>
-        </i>{" "}
-        is insurmountable. I was exposed to the song <i>Antiparallelogram</i> by
-        Onefin recently and I just had to pause the song and start playing it on
+      <p className="mb-6 pointer-events-auto">
+        The way I get inspiration for music is very different to art. The sources of inspo are
+        fewer than art, but the urge to create after hearing <i><b>that song</b></i> is 
+        insurmountable. I was exposed to the song <i>Antiparallelogram</i> by
+        Onefin via <i><a href="https://www.youtube.com/cadencehira" target="_blank" rel="noopener noreferrer" className="hover:underline decoration-pink-500 cursor-target cursor-none">Cadence Hira</a></i> recently and I just had to pause the song and start playing it on
         the drums. I feel like with music you almost have to make an effot to
         find that new sound. Some of those gems include:
       </p>
-      <div className="mb-20 grid grid-cols-3 gap-6">
-        <div>
+      <div className="mb-20 grid grid-cols-3 gap-6 h-auto max-h-200">
+        <div className="h-auto">
           <p className="mb-6">
             The entire Zelda franchise (once again) cause its the best series
-            EVER. OoT and BotW/TotK have some BANGERS, but I also love the music from Twighlight Princess and Skyward Sword.
+            EVER. OoT and BotW/TotK have some BANGERS, but I also love the music
+            from Twighlight Princess and Skyward Sword.
           </p>
-          <img
-            className="rounded-lg"
-            src="https://i.pinimg.com/736x/21/d0/9d/21d09d3cc3b354ea1a373a226ddeddb7.jpg"
-            alt="Zelda Art"
-          ></img>
         </div>
-
-        <div>
+        <div className="h-auto">
           <p className="mb-6">
-            My favourite artists like: Louis Cole, Yoshimasa Terui, Haisuinonasa, and DM Dokuro. Theres more but for the sake of brevity, ive only listed the best.
+            My favourite artists like: Louis Cole, Yoshimasa Terui,
+            Haisuinonasa, and DM Dokuro. Theres more but for the sake of
+            brevity, ive only listed the best.
           </p>
-          <img
-            className="rounded-lg"
-            src="https://i.pinimg.com/736x/21/d0/9d/21d09d3cc3b354ea1a373a226ddeddb7.jpg"
-            alt="Show Art"
-          ></img>
         </div>
-        <div>
+        <div className="h-auto">
           <p className="mb-6">
             Games such as Ror2, Celeste, Pseudoregalia, Neon White, and
             Deltarune. Same deal with the artists, theres too many to list.
+            (You'll also find a huge overlap between the games that inspire my
+            art and music)
           </p>
+        </div>
+        <div className="w-full h-full flex min-h-0 items-end">
           <img
-            className="rounded-lg"
-            src="https://i.pinimg.com/736x/21/d0/9d/21d09d3cc3b354ea1a373a226ddeddb7.jpg"
-            alt="Game Art"
-          ></img>
+            className="rounded-lg max-w-full max-h-full object-contain"
+            src="./assets/orchestra.webp"
+            alt="pluh"
+          />
+        </div>
+        <div className="w-full h-full flex min-h-0 items-end">
+          <img
+            className="rounded-lg max-w-full max-h-full object-contain"
+            src="./assets/louis.webp"
+            alt="pluh"
+          />
+        </div>
+        <div className="w-full h-full flex min-h-0 items-end">
+          <img
+            className="rounded-lg max-w-full max-h-full object-contain"
+            src="./assets/moment.webp"
+            alt="pluh"
+          />
         </div>
       </div>
-
       <h3 className="mb-10 text-3xl font-bold underline decoration-pink-500">
         My art timeline
       </h3>

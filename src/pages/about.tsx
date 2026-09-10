@@ -46,13 +46,13 @@ export default function AboutContent() {
           <div className="h-max w-1/2 flex">
             <img
               className="drop-shadow-xl drop-shadow-black/20"
-              src="./src/assets/pluh.png"
+              src="./assets/pluh.png"
             />
           </div>
           <div className="h-max w-1/2 flex">
             <img
               className="drop-shadow-xl drop-shadow-black/20"
-              src="./src/assets/disme.webp"
+              src="./assets/disme.webp"
             />
           </div>
         </div>
@@ -167,17 +167,17 @@ export default function AboutContent() {
           </div>
           <img
             className="w-full h-full object-fill object-center min-w-0 min-h-0 overflow-hidden box-border"
-            src="./src/assets/grillem.webp"
+            src="./assets/grillem.webp"
             alt="mibombo"
           />
           <img
             className="w-full h-full object-cover object-center min-w-0 min-h-0 overflow-hidden box-border"
-            src="./src/assets/disme.webp"
+            src="./assets/disme.webp"
             alt="mibombo"
           />
           <img
             className="w-full h-full object-cover object-center min-w-0 min-h-0 overflow-hidden box-border"
-            src="./src/assets/crine.webp"
+            src="./assets/crine.webp"
             alt="mibombo"
           />
         </div>

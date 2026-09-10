@@ -4,7 +4,7 @@ export default function HomeContent() {
       <div className="w-full md:w-[70%] overflow-hidden flex h-auto animate-reveal">
         <img
           className="w-full h-auto object-contain object-center min-h-75"
-          src="./src/assets/tuff.webp"
+          src="./assets/tuff.webp"
           alt="mibombo"
         />
       </div>

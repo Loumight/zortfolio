@@ -46,7 +46,7 @@ function App() {
           >
             <img
             className="h-16 w-auto"
-            src="./src/assets/logo.webp"
+            src="./assets/logo.webp"
             />
           </a>
           <div className="flex gap-8 flex-wrap justify-center">

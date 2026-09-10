@@ -69,62 +69,26 @@ export default function AAboutContent() {
         <div className="w-full h-full flex min-h-0 items-end">
           <img
             className="rounded-lg max-w-full max-h-full object-contain"
-            src="./src/assets/link.webp"
+            src="./assets/linkus.webp"
             alt="pluh"
           />
         </div>
         <div className="w-full h-full flex min-h-0 items-end">
           <img
             className="rounded-lg max-w-full max-h-full object-contain"
-            src="./src/assets/higi.webp"
+            src="./assets/higi.webp"
             alt="pluh"
           />
         </div>
         <div className="w-full h-full flex min-h-0 items-end">
           <img
             className="rounded-lg max-w-full max-h-full object-contain"
-            src="./src/assets/moment.webp"
+            src="./assets/ultrapeak.webp"
             alt="pluh"
           />
         </div>
       </div>
-      {/* 
-      <div className="w-full h-full flex justify-center min-h-0">
-        <img
-          className="rounded-lg max-w-full max-h-full object-contain"
-          src="https://i.redd.it/totk-new-official-art-of-the-new-champions-v0-ey1g3xohbhua1.jpg?width=1536&format=pjpg&auto=webp&s=b1c7e42e6a362bf7fef10e10df4f1f37531f8859"
-          alt="pluh"
-        />
-      </div>
-
-        <div className="flex flex-col h-full min-h-0">
-          <p className="mb-6 flex-1">
-            Various shows including: JJK, Frieren, Arcane, Cyberpunk
-            Edgerunners, One piece, and OPM.
-          </p>
-          <div className="w-full h-full flex justify-center min-h-0">
-            <img
-              className="rounded-lg max-w-full max-h-full object-contain"
-              src="./src/assets/raga.webp"
-              alt="pluh"
-            />
-          </div>
-        </div>
-        <div className="flex flex-col max-h-100 min-h-0">
-          <p className="flex-1 mb-6">
-            Games such as Ror2, Ultrakill, Pseudoregalia, ZZZ, Neon White, and
-            Deltarune.
-          </p>
-          <div className="w-full h-full flex justify-center min-h-0">
-            <img
-              className="rounded-lg max-w-full max-h-full object-contain"
-              src="https://i.pinimg.com/736x/21/d0/9d/21d09d3cc3b354ea1a373a226ddeddb7.jpg"
-              alt="pluh"
-            />
-          </div>
-        </div>
-        */}
-
+  
       <h3 className="mb-10 text-3xl font-bold underline decoration-pink-500">
         My art timeline
       </h3>
