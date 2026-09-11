@@ -10,13 +10,13 @@ export default function ArtContent() {
         <div className=" flex h-auto pointer-events-none text-white font-bold text-2xl items-center justify-center mb-4 animate-reveal gap-4">
           <a
             onClick={() => setActiveTab("art")}
-            className={`hover:text-pink-500 transition-colors duration-300 select-none cursor-target pointer-events-auto p-2 ${activeTab === "art" ? "text-pink-500 border" : ""}`}
+            className={`hover:text-pink-500 transition-colors duration-300 select-none cursor-target pointer-events-auto p-2 ${activeTab === "art" ? "text-pink-500 border border-pink-500" : ""}`}
           >
             Art
           </a>
           <a
             onClick={() => setActiveTab("about")}
-            className={`hover:text-pink-500 transition-colors duration-300 select-none cursor-target pointer-events-auto p-2  ${activeTab === "about" ? "text-pink-500 border" : ""}`}
+            className={`hover:text-pink-500 transition-colors duration-300 select-none cursor-target pointer-events-auto p-2  ${activeTab === "about" ? "text-pink-500 border border-pink-500" : ""}`}
           >
             About
           </a>
