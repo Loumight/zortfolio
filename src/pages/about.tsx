@@ -17,7 +17,7 @@ export default function AboutContent() {
             <p className="mb-10">
               I've been learning to code for fun, and made this portfolio by
               myself. I have used some ai as assistance in learning, but
-              everything is coded by me.
+              everything is coded by me (or stolen from those whom have departed wisdom in the form of open source code).
             </p>
 
             <p className="mb-6 text-3xl font-bold">

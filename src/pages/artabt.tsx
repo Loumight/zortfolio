@@ -103,9 +103,9 @@ export default function AAboutContent() {
       {/* Timeline 1 */}
       <Timeline orientation="horizontal" className="mb-20" defaultValue={3}>
         {[
-          { id: 1, date: "2014", title: "Started Drawing", description: "Yea just started drawing, nothing special. I remember constantly drawing in after school care, and having a weird obsession with making everything symetrical." }, 
-          { id: 2, date: "2021", title: "Year 7 x Covid", description: <div>Having proper art classes and realising I kinda sucked, my passion in art reignited. Covid gave us a lot of home time and so I decided to <i>try</i> learn to draw."</div> },
-          { id: 3, date: "2024", title: "Current", description: "Continuously creating and evolving" },
+          { id: 1, date: "2014", title: "Started drawing", description: <div>Started drawing, nothing special. I remember constantly drawing in after school care, and having a weird obsession with making everything symetrical. I enjoyed the occasional KidsArtHub tutorial, but they really only teach you to copy, not draw. I was good at art for my age, but nothing spectacular.</div>},
+          { id: 2, date: "2019", title: "THE drawing book", description: <div>In year 5 we had the opportunity to stay inside during recess and lunch. I would draw a bunch of towers for btd6 since it just came out, but then I got a <i>how to draw superheroes</i> comic/booklet thing from my parents, so I started drawing my own superheroes. It taught some fundmentals but it definitely wasn't a super beginner friendly book.</div>}, 
+          { id: 3, date: "2021", title: "Year 7 x Covid", description: <div>Having proper art classes (at school not extracurricular), and realising I kinda sucked, I wanted to get better. Covid gave us a lot of home time and so I decided to <i className="mr-1">try</i> learn to draw. I can't remember what videos I watched, but my search history was probably looking like 'how to draw anime head EASY tutorial no bs'.</div> },
         ].map((item) => (
           <TimelineItem key={item.id} step={item.id}>
             <TimelineHeader>
@@ -118,12 +118,12 @@ export default function AAboutContent() {
           </TimelineItem>
         ))}
       </Timeline>
-            {/* Timeline 2 this is totally not efficient lol */}
+            {/* Timeline 2 this is totally not efficient lol OR MAYBE IT IS idk */}
       <Timeline orientation="horizontal" className="mb-20" defaultValue={5}>
         {[
-          { id: 4, date: "2024", title: "Milestone", description: "Kept pushing my craft" },
-          { id: 5, date: "2024", title: "Growth", description: "Never stopped improving" },
-          { id: 6, date: "2024", title: "Now", description: "Creating better art every day" },
+          { id: 4, date: "2023", title: "Lock IN", description: <div>I've gotten past the awkward phase, and the art is looking kinda niceee, but for the most part Im still lacking a lot in fundamentals. I can copy a drawing but I don't understand the underlying principles.</div> },
+          { id: 5, date: "2025", title: "", description: <div>WE HAVE A WACOM TABLET. New motivation has been unlocked blah blah blah idk. - Start going through my art reneisance? Actually learn fundamentals for a bit, start focusing mroe on motion and gesture than anatomical correctness, start developing my own style yea</div> },
+          { id: 6, date: "20__?", title: "The FUtuReeEe", description: <div>Who knows man? I'll always continue to improve. As a hobby? As a side hustle? Only time will tell.</div> },
         ].map((item) => (
           <TimelineItem key={item.id} step={item.id}>
             <TimelineHeader>
@@ -136,6 +136,7 @@ export default function AAboutContent() {
           </TimelineItem>
         ))}
       </Timeline>
+      
             <h3 className="mb-10 text-3xl font-bold underline decoration-pink-500">
         My Art Timeline
       </h3>
