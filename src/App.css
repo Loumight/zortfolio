@@ -34,9 +34,11 @@
 
 html {
   overscroll-behavior: none;
+  scroll-snap-type: y proximity;
 }
 
 @theme {
+  --breakpoint-3xl: 1921px;
   --color-yummers: #629c62;
   --color-bummers: #2d482d;
   --color-durple: #754B5D;

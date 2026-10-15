@@ -1,10 +1,12 @@
+import Link from "./link";
+
 export default function MAboutContent() {
   return (
     <div className="animate-reveal w-full flex backdrop-blur-xs backdrop-opacity-90 border-[hsl(120,20%,5%)]/20 border-4 text-xl text-white shadow-xl flex-col p-12">
       <div className="flex flex-col min-h-0 mb-20 justify-center items-baseline">
         <h3 className="text-5xl font-bold flex justify-center w-full">
           <span className="highlighter px-12 py-4">
-            Welcome to my music portfolio!
+            Welcome to my music portfolio! Page not done.
           </span>
         </h3>
         <div className="font-light text-sm flex justify-center w-full">
@@ -36,7 +38,12 @@ export default function MAboutContent() {
         The way I get inspiration for music is very different to art. The sources of inspo are
         fewer than art, but the urge to create after hearing <i><b>that song</b></i> is 
         insurmountable. I was exposed to the song <i>Antiparallelogram</i> by
-        Onefin via <i><a href="https://www.youtube.com/cadencehira" target="_blank" rel="noopener noreferrer" className="hover:underline decoration-pink-500 cursor-target cursor-none">Cadence Hira</a></i> recently and I just had to pause the song and start playing it on
+        Onefin via {" "}
+        <Link
+        link="https://www.youtube.com/cadencehira"
+        title="Cadence Hira "
+        />
+         recently and I just had to pause the song and start playing it on
         the drums. I feel like with music you almost have to make an effot to
         find that new sound. Some of those gems include:
       </p>
@@ -90,7 +97,7 @@ export default function MAboutContent() {
       </h3>
       <p className="mb-6"></p>
       <h3 className="mb-10 text-3xl font-bold underline decoration-pink-500">
-        What resources do I use?
+        Whats the setup?
       </h3>
       <p className="mb-6"></p>
     </div>
