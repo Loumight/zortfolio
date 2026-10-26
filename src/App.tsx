@@ -11,7 +11,7 @@ import AboutContent from "./pages/about";
 function App() {
   const [activeTab, setActiveTab] = useState("home");
   return (
-    <div className="bg-emerald-950 opacity-100 w-full min-h-screen relative z-10 overflow-auto">
+    <div className="bg-emerald-950 opacity-100 w-full min-h-screen relative z-10">
       <div className="fixed inset-0 -z-1">
         <PixelBlast
           variant="square"
@@ -39,7 +39,7 @@ function App() {
       />
       {/* TITLE */}
       <div className="flex flex-col h-min-screen pointer-events-none">
-        <div className="text-white text-5xl font-bold flex flex-wrap justify-between bg-linear-to-r from-pink-500 via-durple via-15% to-emerald-950 to-40% p-9 border-white border-b-4 z-10 pointer-events-auto">
+        <div className="text-white text-5xl font-bold flex flex-wrap justify-between bg-linear-to-r from-pink-500 via-durple via-15% to-emerald-950 to-40% p-9 border-white border-b-4 z-10 pointer-events-auto snap-start">
           <a
             onClick={() => setActiveTab("home")}
             className="select-none cursor-target transition-transform duration-300 hover:scale-110"

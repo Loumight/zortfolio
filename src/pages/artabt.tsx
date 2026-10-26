@@ -8,6 +8,9 @@ import {
   TimelineSeparator,
   TimelineTitle,
 } from "@/components/reui/timeline";
+
+import Link from "./link";
+
 export default function AAboutContent() {
   return (
     <div className="animate-reveal w-full flex backdrop-blur-xs backdrop-opacity-90 border-[hsl(120,20%,5%)]/20 border-4 text-xl text-white shadow-xl flex-col p-12">
@@ -24,7 +27,7 @@ export default function AAboutContent() {
           </p>
         </div>
       </div>
-      <h3 className="mb-10 text-3xl font-bold underline decoration-pink-500">
+      <h3 className="mb-10 text-4xl font-bold underline decoration-pink-500">
         Why do I make art?
       </h3>
       {/*What on earth are these {" "} things bro */}
@@ -43,7 +46,7 @@ export default function AAboutContent() {
         "The highest praise a creator can give is the quiet frustration of
         wishing they had thought of it first."
       </p>
-      <h3 className="mb-10 text-3xl font-bold underline decoration-pink-500">
+      <h3 className="mb-10 text-4xl font-bold underline decoration-pink-500">
         Who or what inspires me?
       </h3>
       <p className="mb-6">
@@ -97,20 +100,62 @@ export default function AAboutContent() {
           />
         </div>
       </div>
-      <h3 className="mb-10 text-3xl font-bold underline decoration-pink-500">
+      <h3 className="mb-10 text-4xl font-bold underline decoration-pink-500">
         My Art Timeline
       </h3>
       {/* Timeline 1 */}
       <Timeline orientation="horizontal" className="mb-20" defaultValue={3}>
         {[
-          { id: 1, date: "2014", title: "Started drawing", description: <div>I remember constantly drawing in after school care, and having a weird obsession with making everything symetrical. I enjoyed our drawing lessons which were usually KidsArtHub tutorials, but they really only teach you to copy, not draw <i>(better than nothing though!)</i>. I was good at art for my age, but nothing spectacular.</div>},
-          { id: 2, date: "2019", title: "THE drawing book", description: <div>In year 5 we had the opportunity to stay inside during recess and lunch. I would draw a bunch of towers for btd6 since that was the one thing we (friends) all had in common, but then I got a <i>how to draw superheroes</i> comic/booklet thing from my parents, so I started drawing my own superheroes.</div>}, 
-          { id: 3, date: "2021", title: "Year 7 x Covid", description: <div>Having proper art classes (at school not extracurricular), and realising I kinda sucked, I wanted to get better. Covid gave us a lot of home time and so I decided to <i className="mr-1">try</i> learn to draw. I can't remember what videos I watched, but my search history was probably looking like 'how to draw anime head EASY tutorial no bs'.</div> },
+          {
+            id: 1,
+            date: "2014",
+            title: "Started drawing",
+            description: (
+              <div>
+                Started drawing, nothing special. I remember constantly drawing
+                in after school care, and having a weird obsession with making
+                everything symetrical. I enjoyed the occasional KidsArtHub
+                tutorial, but they really only teach you to copy, not draw. I
+                was good at art for my age, but nothing spectacular.
+              </div>
+            ),
+          },
+          {
+            id: 2,
+            date: "2019",
+            title: "The drawing book",
+            description: (
+              <div>
+                In Year 5 we were allowed to stay inside during recess and
+                lunch. Bloons TD 6 came out the previous year and I was super
+                into it, so I spent my breaks drawing my own towers. Later that
+                year, my parents bought me a{" "}
+                <i className="mr-1">How to Draw Superheroes</i> booklet, so I
+                started drawing superheroes. Honestly they were pretty terrible
+                but a start is a start.
+              </div>
+            ),
+          },
+          {
+            id: 3,
+            date: "2021",
+            title: "Year 7 x Covid",
+            description: (
+              <div>
+                Having proper art classes (at school not extracurricular), and
+                realising I kinda sucked, I wanted to get better. Covid gave us
+                a lot of home time, so I decided to <i className="mr-1">try</i>{" "}
+                learn to draw. I can't remember what videos I watched, but I
+                think there was a fair amount of Proko TV, Draw like a Sir, and
+                various 'how to' anime tutorials.
+              </div>
+            ),
+          },
         ].map((item) => (
           <TimelineItem key={item.id} step={item.id}>
             <TimelineHeader>
-              <TimelineSeparator/>
-              <TimelineIndicator/>
+              <TimelineSeparator />
+              <TimelineIndicator />
               <TimelineDate>{item.date}</TimelineDate>
               <TimelineTitle className="mb-6">{item.title}</TimelineTitle>
             </TimelineHeader>
@@ -118,28 +163,126 @@ export default function AAboutContent() {
           </TimelineItem>
         ))}
       </Timeline>
-            {/* Timeline 2 this is totally not efficient lol OR MAYBE IT IS idk */}
+      {/* Timeline 2 this is totally not efficient lol OR MAYBE IT IS idk */}
       <Timeline orientation="horizontal" className="mb-20" defaultValue={5}>
         {[
-          { id: 4, date: "2023", title: "Lock IN", description: <div>I've gotten past the awkward phase, and the art is looking kinda niceee, but for the most part Im still lacking a lot in fundamentals. I can copy a drawing or photo really well, but nothing from memory. Capturing someones likeness was also a huge struggle, unless it was a close up.</div>},
-          { id: 5, date: "2025", title: "", description: <div>WE HAVE A WACOM TABLET. New motivation has been unlocked blah blah blah idk. - Start going through my art reneisance? Actually learn fundamentals for a bit, start focusing mroe on motion and gesture than anatomical correctness, start developing my own style yea</div> },
-          { id: 6, date: "20__?", title: "The FUtuReeEe", description: <div>Who knows man? I'll always continue to improve. As a hobby? As a side hustle? Only time will tell.</div> },
+          {
+            id: 4,
+            date: "2023",
+            title: "Getting into it",
+            description: (
+              <div>
+                I've gotten past the awkward phase, and the art is looking kinda
+                niceee, but for the most part Im still lacking a lot in
+                fundamentals. I can copy a drawing but I don't understand the
+                underlying principles. I also make the FATAL mistake of getting
+                into anatomy WAY to early. It still taught me form and a bit of
+                value, but it makes everything so stiff and boring.
+              </div>
+            ),
+          },
+          {
+            id: 5,
+            date: "2025",
+            title: "Digital Renaissance",
+            description: (
+              <div>
+                WE HAVE A WACOM TABLET. Digital art my beloved. With my new
+                found motivation I actually try doing basic exercises for a bit
+                (until i get bored), and I start learning about colours (I still
+                have a skill issue). I also start to focus more on gesture than
+                anatomical correctness, and developing my own style - Its still
+                a work in progress.
+              </div>
+            ),
+          },
+          {
+            id: 6,
+            date: "20__?",
+            title: "The Futureeee",
+            description: (
+              <div>
+                I still don't know what course I'll get into for uni, but my
+                No.1 option was game development. Will I continue art as a
+                hobby? As a side hustle? As apart of my job? Only time will
+                tell. I do plan to continue improving my skills, for myself but
+                also for potential future opportunities. If you made it here you
+                get a cookie :).
+              </div>
+            ),
+          },
         ].map((item) => (
           <TimelineItem key={item.id} step={item.id}>
             <TimelineHeader>
-              <TimelineSeparator/>
+              <TimelineSeparator />
               <TimelineDate>{item.date}</TimelineDate>
               <TimelineTitle className="mb-6">{item.title}</TimelineTitle>
-              <TimelineIndicator/>
+              <TimelineIndicator />
             </TimelineHeader>
             <TimelineContent>{item.description}</TimelineContent>
           </TimelineItem>
         ))}
       </Timeline>
-      
-            <h3 className="mb-10 text-3xl font-bold underline decoration-pink-500">
-        My Art Timeline
+
+      <h3 className="mb-10 text-4xl font-bold underline decoration-pink-500">
+        What I use:
       </h3>
+      <p className="mb-6">
+        I use a {" "}
+        <Link
+          link="https://estore.wacom.com/en-au/one-by-wacom-medium-ctl-672-k0-cx.html?srsltid=AfmBOoobdiNQGG1GH1hvd0ZdFGpv_sKC_I-U-J0-gMNEJJrsMwQfuQps"
+          title="One by Wacom - Medium "
+        />
+        and the software  {" "}
+                <Link
+          link="https://krita.org/en/"
+          title="Krita "
+        />
+        to create digital art on my PC. 
+      </p>
+      <div className="flex flex-row gap-6 items-start mb-20">
+      <img
+      className="max-h-[35vh] w-auto object-contain"
+      src="./assets/wacom.webp"
+      alt="Wacom Tablet"
+      />
+            <img
+      className="max-h-[35vh] w-auto object-contain"
+      src="./assets/krita.png"
+      alt="Krita"
+      />
+      </div>
+      <p className="mb-6">
+        Brush wise I really dont use a whole lot, you might see some texture in a couple pieces but those are krita default brushes. The ones I use 99% of the time are:
+      </p>
+      <div className="flex flex-row gap-12 mb-6">
+      <p>
+                <Link
+          link="https://krita-artists.org/t/concept-illustration-v2/112682"
+          title="Concept and Illu v3"
+        />    
+        {" "}- 99% of my colouring{" "}
+      </p>
+      <p>
+            <Link
+          link="https://krita-artists.org/t/gege-akutami-line-brushes/82507/25"
+          title="Gege FREE ink brush"
+        />   
+         {" "}- my 'lineart' or fine detail brush {" "}
+      </p>
+      <p>
+             <Link
+          link="https://krita-artists.org/t/version-6-0-of-wojtrybs-wont-teach-you-to-draw-brushpack-relased/13299"
+          title="Wojtryb 6"
+        />
+        {" "}- lasso tool but a brush {" "}
+      </p>
+      </div>
+      <img
+      className="max-w-[40vw] w-auto object-contain"
+      src="./assets/brushes.png"
+      alt="Brushes"
+      />
     </div>
   );
 }

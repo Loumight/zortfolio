@@ -17,7 +17,8 @@ export default function AboutContent() {
             <p className="mb-10">
               I've been learning to code for fun, and made this portfolio by
               myself. I have used some ai as assistance in learning, but
-              everything is coded by me (or stolen from those whom have departed wisdom in the form of open source code).
+              everything is coded by me (or stolen from those whom have departed
+              wisdom in the form of open source code).
             </p>
 
             <p className="mb-6 text-3xl font-bold">
@@ -35,7 +36,7 @@ export default function AboutContent() {
               <i>*cough*</i>
             </p>
             <p className="mb-6">
-              Games - Playing them, creating them, everything about them
+              Games - everything about them (maybe creating one?)
             </p>
             <p className="text-3xl font-bold underline decoration-pink-500">
               Scroll down for more about my music and art!
@@ -57,39 +58,36 @@ export default function AboutContent() {
           </div>
         </div>
       </div>
-      <div className="flex grow gap-10 w-full box-border p-12 max-h-svh pointer-events-auto">
+      <div className="flex grow gap-10 w-full box-border p-12 max-h-svh pointer-events-auto snap-start">
         <div className="grid grid-cols-3 gap-10 w-auto">
           <div className=" text-white text-xl w-full flex flex-col backdrop-blur-xs p-12 backdrop-opacity-90 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-scroll shadow-xl">
             <h3 className="mb-10 text-5xl font-bold underline decoration-pink-500">
               Music
             </h3>
-            <p className="mb-6">
-              I am the biggest drum one trick ever. I've played drums fairly
-              regularly since I was 3, and have done weekly lessons (during the
-              school term) since I turned 5.
+            <p className="mb-10">
+              - I am the biggest drum one trick ever. I've played drums fairly
+              regularly since I was 3, and have done weekly lessons since I
+              turned 5. I can <i className="mr-1">kinda</i> play piano, bass and
+              guitar... at a very beginner level.
             </p>
-            <p className="mb-6">
-              It took until yr5 before I started willingly listening to music,
-              and only started seeking out music once I started playing rhythm
-              games in yr7. In yr10 I transcribed and played Whiplash by Hank
-              Levy, as my term project. During this time I experimented with
-              noteflight (the website I used to transcribe Whiplash) and trying
-              to compose, and it evolved from there.
+            <p className="mb-10">
+              - It took until yr5 before I started listening to music, and yr7
+              to gain an inkling of taste. I started playing FNF and Osu mania
+              in yr8 and it took a year before I started listening to other
+              songs. My taste is pretty different now...
             </p>
-            <p className="mb-6">
-              My obession with vgm/osts, drove me to try make my first songs,
-              main one being Ror2. Various Yt channels like Cadence Hira and
-              8-bit Music Theory serve as inspo and were the first people I
-              watched to start learning theory. Since I never learnt any pitched
-              intruments I kinda neeed music theory to start doing stuff.
+            <p className="mb-10">
+              - My obession with vgm/osts, drove me to try make my first songs,
+              the main one being Ror2. Shoutout to Cadence Hira and 8-bit Music
+              Theory. They were my main sources of music theory at the time. For
+              reference I barely knew what a scale was.
             </p>
             <p>
-              I looked at FL because every digicore 808 spamming rapper uses it
-              (which also means theres a million tutorials), but found Reapers
-              community more appealing and QUALITY tutorials which far outweigh
-              the sheer volume of fl ones. Its super customiseable (reapertips
-              theme!) and also has Reapack, a huge collection of user made js
-              plugins, some of which are SUPER cool. Reaper &gt; Ableton.
+              - I looked at FL because every digicore 808 spamming rapper uses
+              it, but chose Reaper due to the GOAT Kenny Gioia, and the fact it
+              was 'free'. Ive grown to love reapertips' theme and Reapack, a
+              huge collection of user made js plugins, some of which are SUPER
+              cool. Reaper &gt; Ableton.
             </p>
           </div>
           <div className="text-white text-xl w-full min-h-0 flex flex-col backdrop-blur-xs p-12 backdrop-opacity-90 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-auto box-border shadow-xl">
@@ -97,30 +95,29 @@ export default function AboutContent() {
               Art
             </h3>
             <p className="mb-6">
-              I was quite the drawer as a child, doesn't mean I was good though.
-              I could draw things and you could recognise that a thing is a
-              thing, but good luck at anything remotely 3d.
+              - I was quite the drawer as a child, doesn't mean I was good
+              though. I could draw things that mostly looked like 'the thing',
+              but good luck at anything remotely 3d.
             </p>
             <p className="mb-6">
-              Starting in covid (yr7) I decided to try get better at art, partly
-              for enjoyment and partly cause I thought being good at drawing was
-              cool. Considering I never learnt 'the right way' im confused how
-              my past self managed to get though the awkward phase for me, but
-              I'll take it.
+              - Starting in covid (yr7) I decided to try get better at art,
+              partly for enjoyment and partly cause I thought being good at
+              drawing was cool. Considering I never learnt 'the right way' im
+              confused how my past self managed to get though the awkward phase
+              for me, but good for him.
             </p>
             <p className="mb-6">
-              I did an intro to fine arts via the YES program at TAFE in yr 10,
-              very cool. Got to use ink, pastels, and gouache, none of which I
-              used before. I tried water soluble paint but im so attrociously
-              impatient and bad at them its scarred me for life.
+              - I did an <i>Intro to fine arts</i> course via the YES program at
+              TAFE in yr 10, very cool. Got to use ink, pastels, and gouache,
+              none of which I used before. I also HATE water soluble paints.
             </p>
             <p>
-              Yr 11 I got my <i>Wacom One medium</i> drawing tablet and starting
-              using krita, a free and open source drawing software. I really
-              wanted to transfer to digital art because it let me draw how I
-              wanted to, something about traditional left me wanting more. I can
-              confidently say that the change to digital has greatly helped in
-              the development of my style.
+              - Yr 11 I got my <i>Wacom One medium</i> drawing tablet and
+              starting using krita, a free and open source drawing software. I
+              really wanted to transfer to digital art because it let me draw
+              how I wanted to, something about traditional left me wanting more.
+              I can confidently say that the change to digital has greatly
+              helped in the development of my style.
             </p>
           </div>
           <div className="text-white text-xl w-full min-h-0 flex flex-col backdrop-blur-xs p-12 backdrop-opacity-90 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-auto box-border shadow-xl">
@@ -130,54 +127,41 @@ export default function AboutContent() {
               </h3>
             </div>
             <p className="mb-6">
-              Always loved games, but even moreso now that I can truly
-              appreciate the art and music. I can list of so many great games
-              Oot, Totk, Ultrakill, Ror2, the list goes on. Over the past years
-              with my projects where i spend a significant amount of time trying
-              to make something, only for it to be 'good enough' it puts these
-              games Id describe as masterpieces on a whole new level.
+              - SOCCER. Was a one trick left wing player, but have now graduated
+              to the left side of the field. I know, fantastic. Im definitely
+              more of a team player than a hog cause I've got pretty terrible
+              skills.
             </p>
             <p className="mb-6">
-              I would love to make my own game, but more realistically I'd love
-              to compose an ost or do some character/environment design. Maybe I
-              could become a one man army :0. Hopefully I update this - but
-              currently Im loking at game dev at UTS, though music is still very
-              much an option. Im sure wherever I go I'll be able to incorporate
-              my interests into them.
+              - BASEBALL. I pitch and play center field. Recently moved from
+              Senior league to the Adults div 6 team, and they already have
+              quite the pitcher so I've been the main center fielder. I don't
+              know what makes me good at it, I just am. Theres also a lack of
+              options (this is an old team) so Im not surprised either.
             </p>
             <p className="mb-6">
-              Now onto sports, I've played baseball for about 11 years now, and
-              8 for soccer. Theres not a whole lot I can really talk about -
-              unless you want to talk about baseball technique... Soccer (or
-              should I say football) is such a fluid game, the only thing you
-              can really discuss is macro, positional theory. Skills are just
-              drilled until its second nature, ive never been taught 'the right
-              form'.
+              - GAMES. Oh boy I could talk about games all day. Ive been a Zelda
+              fan since I was like 10, and now im starting to love the Resident
+              Evil series. Something about games just feel so amazing. 'Duh
+              thats their job you dummy.' Yea I get that, but theres just something about the art and music really resonate with me. I will force myself to stop here. <a className="text-sm cursor-target cursor-none hover:text-pink-500" href="https://steamcommunity.com/id/FlaccidPankace">(Check out my steam)</a>
             </p>
             <p>
-              Quick rundown of what I do: I pitch or play centre field in
-              baseball, and am a left side one trick in soccer. Pitching is a
-              whole thing, dont get me started, but centre field is fun (just
-              dont drop the ball). For soccer im definitely more of a positional
-              player than baller. I almost exclusively played left wing for
-              years, my job was to stay wide and look to cross into the box, or
-              switch if defence has been dragged over. In the past year ive
-              played more left back since all our backs left.
+              - SHOWS. I watch shome shows. Mostly animated since I love art (we know this now). I gotta say I love JJK and JJBA, but I also hold Frieren and Arcane up there. Id watch edgerunners but its too sad, and anyone who loves cool fights watch Promare PLEASE. 
             </p>
           </div>
           <img
-            className="w-full h-full object-fill object-center min-w-0 min-h-0 overflow-hidden box-border"
-            src="./assets/grillem.webp"
+            className="w-full h-auto object-cover object-center min-w-0 min-h-0 overflow-hidden box-border"
+            src="./assets/me.webp"
+            alt="mibombo"
+          />
+          <img
+            className="w-full h-auto object-cover object-center min-w-0 min-h-0 overflow-hidden box-border"
+            src="./assets/beachcrop.webp"
             alt="mibombo"
           />
           <img
             className="w-full h-full object-cover object-center min-w-0 min-h-0 overflow-hidden box-border"
-            src="./assets/disme.webp"
-            alt="mibombo"
-          />
-          <img
-            className="w-full h-full object-cover object-center min-w-0 min-h-0 overflow-hidden box-border"
-            src="./assets/crine.webp"
+            src="./assets/celeste.webp"
             alt="mibombo"
           />
         </div>
