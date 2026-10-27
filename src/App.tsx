@@ -38,39 +38,39 @@ function App() {
         cursorColorOnTarget="#c053a3"
       />
       {/* TITLE */}
-      <div className="flex flex-col h-min-screen pointer-events-none">
-        <div className="text-white text-5xl font-bold flex flex-wrap justify-between bg-linear-to-r from-pink-500 via-durple via-15% to-emerald-950 to-40% p-9 border-white border-b-4 z-10 pointer-events-auto snap-start">
+      <div className="flex flex-col pointer-events-none">
+        <div className="text-white text-navbar 3xl:text-5xl font-bold flex flex-wrap items-center justify-between bg-linear-to-r from-pink-500 via-durple via-15% to-emerald-950 to-40% pl-12 pr-12 p-7 3xl:p-9 border-white border-b-4 z-10 pointer-events-auto snap-start">
           <a
             onClick={() => setActiveTab("home")}
             className="select-none cursor-target transition-transform duration-300 hover:scale-110"
           >
             <img
-            className="h-16 w-auto"
+            className="h-14 3xl:h-16 w-auto"
             src="./assets/logo.webp"
             />
           </a>
           <div className="flex gap-8 flex-wrap justify-center">
             <a
               onClick={() => setActiveTab("art")}
-              className={`hover:text-pink-500 transition-colors duration-300 select-none cursor-target p-2 ${activeTab === "art" ? "underline decoration-pink-500 underline-offset-8" : ""}`}
+              className={`hover:text-pink-500 transition-colors duration-300 select-none cursor-target pl-2 pr-2 3xl:p-2 ${activeTab === "art" ? "underline decoration-pink-500 underline-offset-8" : ""}`}
             >
               Art
             </a>
             <a
               onClick={() => setActiveTab("music")}
-              className={`hover:text-pink-500 transition-colors duration-300 select-none cursor-target p-2 ${activeTab === "music" ? "underline decoration-pink-500 underline-offset-8" : ""}`}
+              className={`hover:text-pink-500 transition-colors duration-300 select-none cursor-target pl-2 pr-2 3xl:p-2 ${activeTab === "music" ? "underline decoration-pink-500 underline-offset-8" : ""}`}
             >
               Music
             </a>
             <a
               onClick={() => setActiveTab("about")}
-              className={`hover:text-pink-500 transition-colors duration-300 select-none cursor-target p-2 ${activeTab === "about" ? "underline decoration-pink-500 underline-offset-8" : ""}`}
+              className={`hover:text-pink-500 transition-colors duration-300 select-none cursor-target pl-2 pr-2 3xl:p-2 ${activeTab === "about" ? "underline decoration-pink-500 underline-offset-8" : ""}`}
             >
               About
             </a>
             <a
               onClick={() => setActiveTab("projects")}
-              className={`hover:text-pink-500 transition-colors duration-300 select-none cursor-target p-2 ${activeTab === "projects" ? "underline decoration-pink-500 underline-offset-8" : ""}`}
+              className={`hover:text-pink-500 transition-colors duration-300 select-none cursor-target pl-2 pr-2 3xl:p-2 ${activeTab === "projects" ? "underline decoration-pink-500 underline-offset-8" : ""}`}
             >
               Projects
             </a>

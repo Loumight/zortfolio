@@ -39,6 +39,7 @@ html {
 
 @theme {
   --breakpoint-3xl: 1921px;
+  --text-navbar: 42px;
   --color-yummers: #629c62;
   --color-bummers: #2d482d;
   --color-durple: #754B5D;
@@ -63,7 +64,7 @@ html {
     }
   }
 }
-/*---break---*/
+/*---what the hel is all this from? just the timeline thing? damn bro ok---*/
 @theme inline {
   --font-heading: var(--font-sans);
   --font-sans: 'Geist Variable', sans-serif;

@@ -2,27 +2,23 @@
 export default function AboutContent() {
   return (
     <>
-      <div className="flex grow gap-10 w-full box-border p-12 h-[calc(100vh-140px)] pointer-events-auto flex-col md:flex-row">
+      <div className="flex grow gap-10 w-full box-border p-12 h-[calc(100vh-123px)] 3xl:h-[calc(100vh-140px)] pointer-events-none flex-col md:flex-row">
         <div className="animate-reveal w-[50%] flex place-items-center backdrop-blur-xs backdrop-opacity-90 border-[hsl(120,20%,5%)]/20 border-4 shadow-xl">
-          <div className="w-full max-h-full overflow-y-auto text-white text-xl flex flex-col p-12">
+          <div className="w-full max-h-full overflow-y-auto text-white text-xl flex flex-col p-12 pointer-events-auto">
             {/*abt*/}
             <h3 className=" mb-10 text-5xl font-bold">
               <span className="highlighter px-6 py-2">Hey there!</span>
             </h3>
             <p className="mb-6">
-              Im Josh, a 2026 graduate of SSHS with a passion for art and music
-              (and games). You can check out my work in my music and art
+              Im Josh, a 2026 graduate of SSHS with a passion for art, music, and game design. You can check out my work in my 
               portfolios.
             </p>
             <p className="mb-10">
-              I've been learning to code for fun, and made this portfolio by
-              myself. I have used some ai as assistance in learning, but
-              everything is coded by me (or stolen from those whom have departed
-              wisdom in the form of open source code).
+There has been minimal AI usage, 99% of this website is coded by me.
             </p>
 
             <p className="mb-6 text-3xl font-bold">
-              <span className="highlighter px-6 py-2">
+              <span className="mb-10 text-3xl font-bold underline decoration-pink-500">
                 Overview of my interests:
               </span>
             </p>
@@ -58,9 +54,9 @@ export default function AboutContent() {
           </div>
         </div>
       </div>
-      <div className="flex grow gap-10 w-full box-border p-12 max-h-svh pointer-events-auto snap-start">
+      <div className="flex grow gap-10 w-full box-border p-12 max-h-svh pointer-events-none snap-start">
         <div className="grid grid-cols-3 gap-10 w-auto">
-          <div className=" text-white text-xl w-full flex flex-col backdrop-blur-xs p-12 backdrop-opacity-90 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-scroll shadow-xl">
+          <div className=" text-white text-xl w-full flex flex-col backdrop-blur-xs p-12 backdrop-opacity-90 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-scroll shadow-xl pointer-events-auto">
             <h3 className="mb-10 text-5xl font-bold underline decoration-pink-500">
               Music
             </h3>
@@ -90,7 +86,7 @@ export default function AboutContent() {
               cool. Reaper &gt; Ableton.
             </p>
           </div>
-          <div className="text-white text-xl w-full min-h-0 flex flex-col backdrop-blur-xs p-12 backdrop-opacity-90 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-auto box-border shadow-xl">
+          <div className=" text-white text-xl w-full flex flex-col backdrop-blur-xs p-12 backdrop-opacity-90 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-scroll shadow-xl pointer-events-auto">
             <h3 className="mb-10 text-5xl font-bold underline decoration-pink-500">
               Art
             </h3>
@@ -120,7 +116,7 @@ export default function AboutContent() {
               helped in the development of my style.
             </p>
           </div>
-          <div className="text-white text-xl w-full min-h-0 flex flex-col backdrop-blur-xs p-12 backdrop-opacity-90 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-auto box-border shadow-xl">
+          <div className=" text-white text-xl w-full flex flex-col backdrop-blur-xs p-12 backdrop-opacity-90 border-[hsl(120,20%,5%)]/20 border-4 overflow-y-scroll shadow-xl pointer-events-auto">
             <div className="flex flex-col gap-4 mb-10">
               <h3 className="text-5xl font-bold underline decoration-pink-500">
                 Hobbies

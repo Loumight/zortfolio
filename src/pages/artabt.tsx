@@ -166,51 +166,9 @@ export default function AAboutContent() {
       {/* Timeline 2 this is totally not efficient lol OR MAYBE IT IS idk */}
       <Timeline orientation="horizontal" className="mb-20" defaultValue={5}>
         {[
-          {
-            id: 4,
-            date: "2023",
-            title: "Getting into it",
-            description: (
-              <div>
-                I've gotten past the awkward phase, and the art is looking kinda
-                niceee, but for the most part Im still lacking a lot in
-                fundamentals. I can copy a drawing but I don't understand the
-                underlying principles. I also make the FATAL mistake of getting
-                into anatomy WAY to early. It still taught me form and a bit of
-                value, but it makes everything so stiff and boring.
-              </div>
-            ),
-          },
-          {
-            id: 5,
-            date: "2025",
-            title: "Digital Renaissance",
-            description: (
-              <div>
-                WE HAVE A WACOM TABLET. Digital art my beloved. With my new
-                found motivation I actually try doing basic exercises for a bit
-                (until i get bored), and I start learning about colours (I still
-                have a skill issue). I also start to focus more on gesture than
-                anatomical correctness, and developing my own style - Its still
-                a work in progress.
-              </div>
-            ),
-          },
-          {
-            id: 6,
-            date: "20__?",
-            title: "The Futureeee",
-            description: (
-              <div>
-                I still don't know what course I'll get into for uni, but my
-                No.1 option was game development. Will I continue art as a
-                hobby? As a side hustle? As apart of my job? Only time will
-                tell. I do plan to continue improving my skills, for myself but
-                also for potential future opportunities. If you made it here you
-                get a cookie :).
-              </div>
-            ),
-          },
+          { id: 4, date: "2023", title: "Lock IN", description: <div>I've gotten past the awkward phase, and the art is looking kinda niceee, but for the most part Im still lacking a lot in fundamentals. I can copy a drawing but I don't understand the underlying principles.</div> },
+          { id: 5, date: "2025", title: "", description: <div>WE HAVE A WACOM TABLET. New motivation has been unlocked blah blah blah idk. - Start going through my art reneisance? Actually learn fundamentals for a bit, start focusing mroe on motion and gesture than anatomical correctness, start developing my own style yea</div> },
+          { id: 6, date: "20__?", title: "The FUtuReeEe", description: <div>Who knows man? I'll always continue to improve. As a hobby? As a side hustle? Only time will tell.</div> },
         ].map((item) => (
           <TimelineItem key={item.id} step={item.id}>
             <TimelineHeader>
