@@ -5,7 +5,7 @@ export default function ArtArtContent() {
         <div className="pointer-events-auto grid grid-cols-[repeat(auto-fit,minmax(max(20%,400px),1fr))] auto-rows-[minmax(500px,auto)] gap-4">
           <Card
             image="./assets/adressme.png"
-            title="Annoucement!"
+            title="Announcement!"
             desc="I will eventually make it so you can click on images to view the whole thing. These are also all in no particular order, I might make them chronological in the future."
           />
           <Card
@@ -35,7 +35,7 @@ export default function ArtArtContent() {
                     <Card
             image="./assets/jogocrop.png"
             title="2025 secret santa"
-            desc="My friends secret santa of shiny hisuian zoroa. This is also a very early piece so I was still experimenting with layer modes and figuring out a work flow."
+            desc="My friend's secret santa of shiny hisuian zoroa. This is also a very early piece so I was still experimenting with layer modes and figuring out a workflow."
           />
                     <Card
             image="./assets/snake.webp"
@@ -45,7 +45,7 @@ export default function ArtArtContent() {
                               <Card
             image="./assets/plateau.webp"
             title="Great Plateau"
-            desc="I found a super cool collection of 4k photos from botw, and wanted to use one as reference for my project. Its not great, but I think I did a decent job of making it feel 'believeable'"
+            desc="I found a super cool collection of 4k photos from botw, and wanted to use one as reference for my project. Its not great, but I think I did a decent job of making it feel 'believable'"
           />
                               <Card
             image="./assets/something.webp"
@@ -55,7 +55,7 @@ export default function ArtArtContent() {
           <Card
             image="./assets/disme.webp"
             title="Aura farm"
-            desc="When making this website I wanted to make a persona for it, since I didnt know if I wanted to use photos or not. Is this me? Not really, but if I COULD be lookin like this I probably would."
+            desc="When making this website I wanted to make a persona for it, since I didn't know if I wanted to use photos or not. Is this me? Not really, but if I COULD be lookin like this I probably would."
           />
           <Card
             image="./assets/haggalicious.png"
@@ -70,33 +70,33 @@ export default function ArtArtContent() {
                               <Card
             image="./assets/birthing.webp"
             title="Persona and oc no.2"
-            desc="I cooked up my persona on my laptop at school before moving over to my pc. I also literally had this oc's design handed to me in a dream. I woke up and drew it on my phone, then deveolped the idea at my pc."
+            desc="I cooked up my persona on my laptop at school before moving over to my pc. I also literally had this oc's design handed to me in a dream. I woke up and drew it on my phone, then developed the idea at my pc."
           />
           <Card
             image="./assets/crine.webp"
             title="Squid game AHHH"
-            desc="My SECOND ever digital drawing. Same terrible process as my resort. ALL one layer ALL opaque ALL colour picking. Credit where credit is due, I dont think I've ever drawn something as detailed. Makes me kinda jealous...."
+            desc="My SECOND ever digital drawing. Same terrible process as my resort. ALL one layer ALL opaque ALL colour picking. Credit where credit is due, I don't think I've ever drawn something as detailed. Makes me kinda jealous...."
           />
                     <Card
             image="./assets/frozone.webp"
-            title="Wheres my supersuit?"
+            title="Where's my supersuit?"
             desc="A banging caricature of frozone. The colours are also pretty spiffy. I got no complaints, Looks good to me."
           />
 
           <Card
             image="./assets/person.webp"
             title="Sigh of despair"
-            desc="I spent like an hour getting accurate proportions to the reference, then another hour trying to stylise (not shown here) it only to make it WORSE. It looked bad, unproportionate, and so stiff. Rage was my fuel for the next couple days."
+            desc="I spent like an hour getting accurate proportions to the reference, then another hour trying to stylise (not shown here) it only to make it WORSE. It looked bad, disproportionate, and so stiff. Rage was my fuel for the next couple days."
           />
                               <Card
             image="./assets/terrible.webp"
             title="Oc no.1"
-            desc="Having a vague pose reference was NOT enough for me to draw a character. Comparing that to my second OC, theres a huge improvement since this... Theres so much wrong with it - I even tried to fix some stuff a year later."
+            desc="Having a vague pose reference was NOT enough for me to draw a character. Comparing that to my second OC, there's a huge improvement since this... There's so much wrong with it - I even tried to fix some stuff a year later."
           />
                     <Card
             image="./assets/yummers.png"
             title="Unfinished drawing"
-            desc="One of my other earlier pieces, except this time I though 'I must use layers! I must render like how other people do!' and so I got stuck and gave up. Unfortunate, It still looks pretty decent."
+            desc="One of my other earlier pieces, except this time I thought 'I must use layers! I must render like how other people do!' and so I got stuck and gave up. Unfortunate, It still looks pretty decent."
           />
                     <Card
             image="./assets/twotone.webp"
@@ -116,3 +116,4 @@ export default function ArtArtContent() {
         </div>
     )
 }
+

@@ -18,9 +18,9 @@ export default function MAboutContent() {
       </h3>
       {/*What on earth are these {" "} things bro */}
       <p className="mb-6">
-        Real quick, some of my answers will refernce or compare to my art
-        portfolio's answers so I DO recommend to read that first, but its not
-        neccesary. My answer to this question is very similar to why I make art.
+        Real quick, some of my answers will reference or compare to my art
+        portfolio's answers so I DO recommend to read that first, but it's not
+        necessary. My answer to this question is very similar to why I make art.
         Wanting to make something that makes people go{" "}
         <i>'Damn I wish I could make that'</i>. I want to leave an impression of
         awe - and a bit of jealousy (In a good way), like how I hold Louis Cole
@@ -44,7 +44,7 @@ export default function MAboutContent() {
         title="Cadence Hira "
         />
          recently and I just had to pause the song and start playing it on
-        the drums. I feel like with music you almost have to make an effot to
+        the drums. I feel like with music you almost have to make an effort to
         find that new sound. Some of those gems include:
       </p>
       <div className="mb-20 grid grid-cols-3 gap-6 h-auto max-h-200">
@@ -52,20 +52,20 @@ export default function MAboutContent() {
           <p className="mb-6">
             The entire Zelda franchise (once again) cause its the best series
             EVER. OoT and BotW/TotK have some BANGERS, but I also love the music
-            from Twighlight Princess and Skyward Sword.
+            from Twilight Princess and Skyward Sword.
           </p>
         </div>
         <div className="h-auto">
           <p className="mb-6">
             My favourite artists like: Louis Cole, Yoshimasa Terui,
-            Haisuinonasa, and DM Dokuro. Theres more but for the sake of
-            brevity, ive only listed the best.
+            Haisuinonasa, and DM Dokuro. There's more but for the sake of
+            brevity, I've only listed the best.
           </p>
         </div>
         <div className="h-auto">
           <p className="mb-6">
             Games such as Ror2, Celeste, Pseudoregalia, Neon White, and
-            Deltarune. Same deal with the artists, theres too many to list.
+            Deltarune. Same deal with the artists, there's too many to list.
             (You'll also find a huge overlap between the games that inspire my
             art and music)
           </p>
@@ -97,7 +97,7 @@ export default function MAboutContent() {
       </h3>
       <p className="mb-6"></p>
       <h3 className="mb-10 text-3xl font-bold underline decoration-pink-500">
-        Whats the setup?
+        What's the setup?
       </h3>
       <p className="mb-6"></p>
     </div>

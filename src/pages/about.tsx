@@ -10,11 +10,12 @@ export default function AboutContent() {
               <span className="highlighter px-6 py-2">Hey there!</span>
             </h3>
             <p className="mb-6">
-              Im Josh, a 2026 graduate of SSHS with a passion for art, music, and game design. You can check out my work in my 
-              portfolios.
+              I'm Josh, a 2026 graduate of SSHS with a passion for art, music,
+              and game design. You can check out my work in my portfolios.
             </p>
             <p className="mb-10">
-There has been minimal AI usage, 99% of this website is coded by me.
+              There has been minimal AI usage, 99% of this website is coded by
+              me.
             </p>
 
             <p className="mb-6 text-3xl font-bold">
@@ -24,7 +25,7 @@ There has been minimal AI usage, 99% of this website is coded by me.
             </p>
             <p className="mb-6">Sports - Mainly soccer and baseball</p>
             <p className="mb-6">
-              Music - Composing, perfoming on the drums (other instruments in
+              Music - Composing, performing on the drums (other instruments in
               the future?)
             </p>
             <p className="mb-6">
@@ -73,7 +74,7 @@ There has been minimal AI usage, 99% of this website is coded by me.
               songs. My taste is pretty different now...
             </p>
             <p className="mb-10">
-              - My obession with vgm/osts, drove me to try make my first songs,
+              - My obsession with vgm/osts drove me to try make my first songs,
               the main one being Ror2. Shoutout to Cadence Hira and 8-bit Music
               Theory. They were my main sources of music theory at the time. For
               reference I barely knew what a scale was.
@@ -81,7 +82,7 @@ There has been minimal AI usage, 99% of this website is coded by me.
             <p>
               - I looked at FL because every digicore 808 spamming rapper uses
               it, but chose Reaper due to the GOAT Kenny Gioia, and the fact it
-              was 'free'. Ive grown to love reapertips' theme and Reapack, a
+              was 'free'. I've grown to love reapertips' theme and Reapack, a
               huge collection of user made js plugins, some of which are SUPER
               cool. Reaper &gt; Ableton.
             </p>
@@ -98,8 +99,8 @@ There has been minimal AI usage, 99% of this website is coded by me.
             <p className="mb-6">
               - Starting in covid (yr7) I decided to try get better at art,
               partly for enjoyment and partly cause I thought being good at
-              drawing was cool. Considering I never learnt 'the right way' im
-              confused how my past self managed to get though the awkward phase
+              drawing was cool. Considering I never learnt 'the right way' I'm
+              confused how my past self managed to get through the awkward phase
               for me, but good for him.
             </p>
             <p className="mb-6">
@@ -109,7 +110,7 @@ There has been minimal AI usage, 99% of this website is coded by me.
             </p>
             <p>
               - Yr 11 I got my <i>Wacom One medium</i> drawing tablet and
-              starting using krita, a free and open source drawing software. I
+              started using krita, a free and open-source drawing software. I
               really wanted to transfer to digital art because it let me draw
               how I wanted to, something about traditional left me wanting more.
               I can confidently say that the change to digital has greatly
@@ -124,7 +125,7 @@ There has been minimal AI usage, 99% of this website is coded by me.
             </div>
             <p className="mb-6">
               - SOCCER. Was a one trick left wing player, but have now graduated
-              to the left side of the field. I know, fantastic. Im definitely
+              to the left side of the field. I know, fantastic. I'm definitely
               more of a team player than a hog cause I've got pretty terrible
               skills.
             </p>
@@ -132,17 +133,29 @@ There has been minimal AI usage, 99% of this website is coded by me.
               - BASEBALL. I pitch and play center field. Recently moved from
               Senior league to the Adults div 6 team, and they already have
               quite the pitcher so I've been the main center fielder. I don't
-              know what makes me good at it, I just am. Theres also a lack of
-              options (this is an old team) so Im not surprised either.
+              know what makes me good at it, I just am. There's also a lack of
+              options (this is an old team) so I'm not surprised either.
             </p>
             <p className="mb-6">
-              - GAMES. Oh boy I could talk about games all day. Ive been a Zelda
-              fan since I was like 10, and now im starting to love the Resident
-              Evil series. Something about games just feel so amazing. 'Duh
-              thats their job you dummy.' Yea I get that, but theres just something about the art and music really resonate with me. I will force myself to stop here. <a className="text-sm cursor-target cursor-none hover:text-pink-500" href="https://steamcommunity.com/id/FlaccidPankace">(Check out my steam)</a>
+              - GAMES. I could talk about games all day. I've been a Zelda fan
+              since I was like 10, and now I'm starting to love the Resident Evil
+              series. Something about the way games combine art and music
+              together to make a story really resonate with me. I will force
+              myself to stop here. Or I'll go on a massive tangent.{" "}
+              <a
+                className="text-sm cursor-target cursor-none hover:text-pink-500"
+                href="https://steamcommunity.com/id/FlaccidPankace"
+              >
+                (Check out my steam)
+              </a>
             </p>
             <p>
-              - SHOWS. I watch shome shows. Mostly animated since I love art (we know this now). I gotta say I love JJK and JJBA, but I also hold Frieren and Arcane up there. Id watch edgerunners but its too sad, and anyone who loves cool fights watch Promare PLEASE. 
+              - SHOWS. I watch some shows. Mostly animated since I love art (we
+              know this now). I gotta say I love JJK and JJBA, but I also hold
+              Frieren and Arcane up there. They do have great stories, but the
+              art also separates them from any other show. Well-thought-out
+              narratives are great, but I love raw cool animation just as much. {" "}
+              <span className="text-sm">(If you're like me, check out Promare)</span>
             </p>
           </div>
           <img

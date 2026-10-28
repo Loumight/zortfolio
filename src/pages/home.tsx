@@ -12,17 +12,17 @@ export default function HomeContent() {
       <div className="w-full h-full pointer-events-auto min-h-0 overflow-y-auto animate-reveal text-white text-center backdrop-blur-xs backdrop-opacity-70 border-[hsl(120,20%,5%)]/20 border-4">
         <div className="min-h-full w-full flex flex-col">
           <div className="my-auto w-full p-12">
-          {/* dude whoever looks at this lmao its lowk cooked dont judge pls */}
+          {/* dude whoever looks at this lmao it's lowk cooked don't judge pls */}
           <div className="justify-center ml-12 mr-12 mb-12 flex shrink-0">
             <img
               className="w-full h-auto"
-              src="./assets/doxxed.png"
+              src="./assets/mefr.webp"
               alt="A sigma"
             />
           </div>
             <p className="mb-6 3xl:mb-12 text-3xl 3xl:text-6xl font-bold">
               <p className="mb-6">
-                Hi, im
+                Hi, I'm
                 <span className="highlighter px-2">JOSH</span>
                 <br></br>
               </p>
@@ -30,7 +30,7 @@ export default function HomeContent() {
               <i className="underline decoration-pink-500">Lumite</i>
             </p>
             <p className="text-lg 3xl:text-2xl mb-6">
-              Apart of the first Big Picture class at South Sydney HS - with an
+              A part of the first Big Picture class at South Sydney HS - with an
               interest in art and music
             </p>
             <p className="text-sm 3xl:text-lg pointer-events-auto">
@@ -50,3 +50,4 @@ export default function HomeContent() {
     </div>
   );
 }
+

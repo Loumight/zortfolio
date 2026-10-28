@@ -22,7 +22,7 @@ export default function AAboutContent() {
         </h3>
         <div className="font-light text-sm flex justify-center w-full">
           <p>
-            You're actually here for <i className="font-semibold">me?</i> Im so
+            You're actually here for <i className="font-semibold">me?</i> I'm so
             honoured
           </p>
         </div>
@@ -32,10 +32,10 @@ export default function AAboutContent() {
       </h3>
       {/*What on earth are these {" "} things bro */}
       <p className="mb-6">
-        Its hard to answer, the same way you just 'kinda like sports cause its
+        It's hard to answer, the same way you just 'kinda like sports cause it's
         fun'. There are reasons like finding enjoyment in creating things,
         having a way to express yourself or your ideas, but sometimes I just
-        draw beacuse I can. The biggest reason I make art is because I want to
+        draw because I can. The biggest reason I make art is because I want to
         make the thing that makes people go{" "}
         <i>'damn I wish I thought of that'</i>. Getting the reaction the same
         way I look at my favourite games and go{" "}
@@ -51,24 +51,24 @@ export default function AAboutContent() {
       </h3>
       <p className="mb-6">
         Inspiration comes from so many things, I wish I acted on it more often.
-        Those sparkles in a usually mundane moment - might be the evironement, a
+        Those sparkles in a usually mundane moment - might be the environment, a
         cool perspective, an interesting outfit, etc. As for those constant
         sources that drive me to continue with my art, they include:
       </p>
       <div className="mb-20 grid grid-cols-3 gap-6 h-auto max-h-200">
         <div className="h-auto">
           <p>
-            The entire Zelda franchise cause its the best series EVER, but more
-            specifically Oot and Botw/Totk. Not a single piece of media has ever
+            The entire Zelda franchise cause it's the best series EVER, but more
+            specificallyy Oot and Botw/Totk. Not a single piece of media has ever
             come close to the impact these games have had on me.
           </p>
         </div>
         <div className="h-auto">
           <p>
-            Various media including: JJK, Frieren, Arcane, and OPM. Theres also
+            Various media including: JJK, Frieren, Arcane, and OPM. There's also
             a lot of inspo constantly coming from pinterest and instagram. I
-            dont follow any specific artists, I just kinda save any posts of
-            interests.
+            don't follow any specific artists, I just kinda save any posts of
+            interest.
           </p>
         </div>
         <div className="h-auto">
@@ -114,7 +114,7 @@ export default function AAboutContent() {
               <div>
                 Started drawing, nothing special. I remember constantly drawing
                 in after school care, and having a weird obsession with making
-                everything symetrical. I enjoyed the occasional KidsArtHub
+                everything symmetrical. I enjoyed the occasional KidsArtHub
                 tutorial, but they really only teach you to copy, not draw. I
                 was good at art for my age, but nothing spectacular.
               </div>
@@ -166,8 +166,8 @@ export default function AAboutContent() {
       {/* Timeline 2 this is totally not efficient lol OR MAYBE IT IS idk */}
       <Timeline orientation="horizontal" className="mb-20" defaultValue={5}>
         {[
-          { id: 4, date: "2023", title: "Lock IN", description: <div>I've gotten past the awkward phase, and the art is looking kinda niceee, but for the most part Im still lacking a lot in fundamentals. I can copy a drawing but I don't understand the underlying principles.</div> },
-          { id: 5, date: "2025", title: "", description: <div>WE HAVE A WACOM TABLET. New motivation has been unlocked blah blah blah idk. - Start going through my art reneisance? Actually learn fundamentals for a bit, start focusing mroe on motion and gesture than anatomical correctness, start developing my own style yea</div> },
+          { id: 4, date: "2023", title: "Lock IN", description: <div>I've gotten past the awkward phase, and the art is looking kinda niceee, but for the most part I'm still lacking a lot in fundamentals. I can copy a drawing but I don't understand the underlying principles.</div> },
+          { id: 5, date: "2025", title: "", description: <div>WE HAVE A WACOM TABLET. New motivation has been unlocked blah blah blah idk. - Start going through my art renaissance? Actually learn fundamentals for a bit, start focusing more on motion and gesture than anatomical correctness, start developing my own style yea</div> },
           { id: 6, date: "20__?", title: "The FUtuReeEe", description: <div>Who knows man? I'll always continue to improve. As a hobby? As a side hustle? Only time will tell.</div> },
         ].map((item) => (
           <TimelineItem key={item.id} step={item.id}>
@@ -211,7 +211,7 @@ export default function AAboutContent() {
       />
       </div>
       <p className="mb-6">
-        Brush wise I really dont use a whole lot, you might see some texture in a couple pieces but those are krita default brushes. The ones I use 99% of the time are:
+        Brush wise I really don't use a whole lot, you might see some texture in a couple pieces but those are krita default brushes. The ones I use 99% of the time are:
       </p>
       <div className="flex flex-row gap-12 mb-6">
       <p>
