@@ -1,5 +1,5 @@
 import Link from "./link";
-
+import Card from "./musicard";
 // ArtContent.tsx
 export default function ProjectContent() {
   return (
@@ -51,12 +51,12 @@ export default function ProjectContent() {
                     the moment, its just there.
                   </li>
                 </ul>
-                <span className="text-3xl">
+                <p className="text-3xl mb-12">
                   <Link
                     link="https://loumight.github.io/MAP/"
                     title="Click here to go to my map"
                   />
-                </span>
+                </p>
               </p>
             </div>
             <div className="flex flex-1">
@@ -64,6 +64,13 @@ export default function ProjectContent() {
               className="object-contain"
               src="./assets/website.png" />
             </div>
+          </div>
+          <div className="grid grid-cols-3">
+                                          <Card
+                        link="https://www.youtube.com/embed/xyoGFnaT4Y4"
+                        title="Video profile"
+                        desc="I will make another section for awards and stuff but for now its just here."
+                      />
           </div>
         </div>
       </div>
