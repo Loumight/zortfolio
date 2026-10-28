@@ -189,14 +189,14 @@ export default function AAboutContent() {
         I use a {" "}
         <Link
           link="https://estore.wacom.com/en-au/one-by-wacom-medium-ctl-672-k0-cx.html?srsltid=AfmBOoobdiNQGG1GH1hvd0ZdFGpv_sKC_I-U-J0-gMNEJJrsMwQfuQps"
-          title="One by Wacom - Medium "
+          title="One by Wacom - Medium"
         />
-        and the software  {" "}
+           {" "}and the software  {" "}
                 <Link
           link="https://krita.org/en/"
-          title="Krita "
+          title="Krita"
         />
-        to create digital art on my PC. 
+           {" "}to create digital art on my PC. 
       </p>
       <div className="flex flex-row gap-6 items-start mb-20">
       <img
