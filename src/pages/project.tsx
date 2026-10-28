@@ -16,7 +16,7 @@ export default function ProjectContent() {
               <p>Well... project (for now)</p>
             </div>
           </div>
-          <div className="flex flex-row gap-6">
+          <div className="flex flex-row gap-6 mb-12">
             <div className="flex flex-1">
               <p>
                 <p className="font-bold text-3xl mb-12 underline decoration-pink-500">
@@ -51,7 +51,7 @@ export default function ProjectContent() {
                     the moment, its just there.
                   </li>
                 </ul>
-                <p className="text-3xl mb-12">
+                <p className="text-3xl">
                   <Link
                     link="https://loumight.github.io/MAP/"
                     title="Click here to go to my map"
@@ -60,17 +60,15 @@ export default function ProjectContent() {
               </p>
             </div>
             <div className="flex flex-1">
-              <img 
-              className="object-contain"
-              src="./assets/website.png" />
+              <img className="object-contain" src="./assets/website.png" />
             </div>
           </div>
           <div className="grid grid-cols-3">
-                                          <Card
-                        link="https://www.youtube.com/embed/xyoGFnaT4Y4"
-                        title="Video profile"
-                        desc="I will make another section for awards and stuff but for now its just here."
-                      />
+            <Card
+              link="https://www.youtube.com/embed/xyoGFnaT4Y4"
+              title="Video profile"
+              desc="I will make another section for awards and stuff but for now its just here."
+            />
           </div>
         </div>
       </div>
