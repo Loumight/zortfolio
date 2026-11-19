@@ -50,10 +50,7 @@ export default function AAboutContent() {
         Who or what inspires me?
       </h3>
       <p className="mb-6">
-        Inspiration comes from so many things, I wish I acted on it more often.
-        Those sparkles in a usually mundane moment - might be the environment, a
-        cool perspective, an interesting outfit, etc. As for those constant
-        sources that drive me to continue with my art, they include:
+        Inspiration of course comes from everywhere - Games, shows, social media, daily life... you get the idea. So much out there is art, you just have to pay attention. That being said, my main sources would be:
       </p>
       <div className="mb-20 grid grid-cols-3 gap-6 h-auto max-h-200">
         <div className="h-auto">

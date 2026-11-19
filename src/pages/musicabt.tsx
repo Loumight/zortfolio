@@ -10,7 +10,7 @@ export default function MAboutContent() {
           </span>
         </h3>
         <div className="font-light text-sm flex justify-center w-full">
-          <p>I wonder how many people visit the music portfolio first?</p>
+          <p>My love hate relationship with music is that I'll never be as good as the artists I admire.</p>
         </div>
       </div>
       <h3 className="mb-10 text-3xl font-bold underline decoration-pink-500">
@@ -35,17 +35,12 @@ export default function MAboutContent() {
         Who or what inspires me?
       </h3>
       <p className="mb-6 pointer-events-auto">
-        The way I get inspiration for music is very different to art. The sources of inspo are
-        fewer than art, but the urge to create after hearing <i><b>that song</b></i> is 
-        insurmountable. I was exposed to the song <i>Antiparallelogram</i> by
-        Onefin via {" "}
+        I'd say im a pretty picky listener. Im quite selective in what I listen to, but whatever I like will never be forgotten. My new 'ideas' are really just ripoffs of things I've heard. Video games are a big part, but my insta is riddled with music so sometimes I'll just hear the craziest ideas. Im also always watching Youtubers like {" "}
         <Link
         link="https://www.youtube.com/cadencehira"
         title="Cadence Hira "
         />
-         recently and I just had to pause the song and start playing it on
-        the drums. I feel like with music you almost have to make an effort to
-        find that new sound. Some of those gems include:
+        who talk about the craziest things, but of course I have to mention my favourites like:
       </p>
       <div className="mb-20 grid grid-cols-3 gap-6 h-auto max-h-200">
         <div className="h-auto">
@@ -58,8 +53,7 @@ export default function MAboutContent() {
         <div className="h-auto">
           <p className="mb-6">
             My favourite artists like: Louis Cole, Yoshimasa Terui,
-            Haisuinonasa, and DM Dokuro. There's more but for the sake of
-            brevity, I've only listed the best.
+            Haisuinonasa, and DM Dokuro. There's also youtubers like Cadence Hira, 8-bit music, and Levi McClain.
           </p>
         </div>
         <div className="h-auto">
